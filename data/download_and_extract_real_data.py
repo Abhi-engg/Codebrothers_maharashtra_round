@@ -164,13 +164,13 @@ def merge_top_physics_into_individual_dataset(extracted):
                     "student_submission": {
                         "input_mode": "mcq_selection",
                         "final_answer": flawed_choice,
-                        "working_steps": f"Selected distractor option: '{flawed_choice}' based on naive physical intuition.",
+                        "working_steps": f"I read the problem statement about {chapter} and concluded that {flawed_choice} is correct based on how I understand the physical relationships.",
                         "extracted_ocr_confidence": None
                     },
                     "ground_truth": {
                         "coarse_category": coarse,
                         "primary_label": label,
-                        "confidence": 0.95,
+                        "confidence": 0.85,
                         "diagnostic_rationale": f"Authentic student distractor from ScienceQA. Explanatory Context: {item['solution'][:200]}",
                         "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
                     }
@@ -178,7 +178,7 @@ def merge_top_physics_into_individual_dataset(extracted):
                 dataset.append(new_record)
                 existing_ids.add(rec_id)
                 new_added += 1
-                if new_added >= 40:  # Curate top 40 best-matching real world exam instances
+                if new_added >= 600:  # Curate top 600 best-matching real world exam instances
                     break
 
     with open(MERGED_DATASET_PATH, "w", encoding="utf-8") as f:

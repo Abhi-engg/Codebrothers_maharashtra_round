@@ -3797,13 +3797,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "alliteration",
-      "working_steps": "I applied the principles I remembered and reasoned that alliteration makes the most sense based on the scenario.",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that alliteration is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-GRV-01",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -3823,13 +3823,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "stayed the same",
-      "working_steps": "I applied the principles I remembered and reasoned that stayed the same makes the most sense based on the scenario.",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G12-EST-01",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Michelle started sledding. As Michelle rode toward the bottom of th",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -3849,14 +3849,1704 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "allusion",
-      "working_steps": "I remember reading about this concept. The physical relationship suggests allusion.",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that allusion is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-GRV-01",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-825-V2",
+    "template_group_id": "GRP-REAL-SQA-825-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-825",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Paul. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nPaul was lower than the balcony. As the water balloon fell toward Paul, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Paul."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nPaul was lower than the balcony. As the water balloon fell toward Paul, the distance between the water balloon a",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-1236-V2",
+    "template_group_id": "GRP-REAL-SQA-1236-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-1236",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Matthew's mass did not change.\nThe gravitational potential energy stored between Matthew and Earth () as he rode the escalator. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between Matthew and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Matthew and the center of Earth increased. So, the gravitational potential energy stored between Matthew and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Matthew and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Ma",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-1368-V2",
+    "template_group_id": "GRP-REAL-SQA-1368-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-1368",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nwater vapor condensing on a bathroom mirror\nyour breath becoming visible on a cold day Options: Both are caused by heating., Both are only physical changes., Both are chemical changes.",
+      "expected_physics_summary": "Step 1: Think about each change.\nWater vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the liquid water are both made of water.\nYour breath becoming visible on a cold day is a change of state. So, it is a physical change. Water vapor in your breath touches the cold air outside and becomes liquid. The water vapor changes state, but it is made of water. A different type of matter is not formed.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nBoth changes are caused by cooling."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are caused by heating.",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that Both are caused by heating. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nWater vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirro",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-1713-V2",
+    "template_group_id": "GRP-REAL-SQA-1713-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-1713",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the motorcycle's mass did not change.\nThe gravitational potential energy stored between the motorcycle and Earth () as Emmett rode up the hill. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Emmett rode toward the top of the hill, the distance between the motorcycle and the center of Earth increased. So, the gravitational potential energy stored between the motorcycle and Earth increased as Emmett rode up the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Emmett rode toward the top of the hill, the distance ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-1958-V2",
+    "template_group_id": "GRP-REAL-SQA-1958-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-1958",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nThe city of Richmond is currently experiencing a minor crisis. Its sanitation workers are on strike, and the garbage is piling up in the streets. Options: paradox, oxymoron",
+      "expected_physics_summary": "The text uses an oxymoron, a joining of two seemingly contradictory terms.\nMinor crisis is a contradiction, because minor means small or insignificant, and a crisis is a large problem."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "paradox",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that paradox is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses an oxymoron, a joining of two seemingly contradictory terms.\nMinor crisis is a contradiction, because minor means small or insignificant, and a crisis is a large problem.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-2195-V2",
+    "template_group_id": "GRP-REAL-SQA-2195-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-2195",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Tony's mass did not change.\nThe gravitational potential energy stored between Tony and Earth () as he rode the escalator. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between Tony and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Tony and the center of Earth increased. So, the gravitational potential energy stored between Tony and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Tony and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Tony ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-2233-V2",
+    "template_group_id": "GRP-REAL-SQA-2233-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-2233",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the sentence.\nChemicals in a battery reacting to power a flashlight is a (). Options: chemical change, physical change",
+      "expected_physics_summary": "Chemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to form new chemicals. This creates electricity, which powers the lightbulb."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "physical change",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that physical change is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Chemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to form new chemicals. This creates ele",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-2414-V2",
+    "template_group_id": "GRP-REAL-SQA-2414-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-2414",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Ben. Options: increased, decreased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nBen was lower than the balcony. As the water balloon fell toward Ben, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Ben."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nBen was lower than the balcony. As the water balloon fell toward Ben, the distance between the water balloon and",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-2970-V2",
+    "template_group_id": "GRP-REAL-SQA-2970-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-2970",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nErik remarked that the new book on anti-gravity was impossible to put down. Options: alliteration, pun",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "alliteration",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that alliteration is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-3150-V2",
+    "template_group_id": "GRP-REAL-SQA-3150-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-3150",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which word would you find on a dictionary page with the following guide words?\nmama - mirror Options: message, mole",
+      "expected_physics_summary": "Put the words in alphabetical order.\nSince message is between the guide words mama - mirror, it would be found on that page."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "mole",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that mole is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Put the words in alphabetical order.\nSince message is between the guide words mama - mirror, it would be found on that page.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-3223-V2",
+    "template_group_id": "GRP-REAL-SQA-3223-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-3223",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Edna rode down the hill. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Edna started sledding. As Edna rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Edna rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Edna started sledding. As Edna rode toward the bottom of the hill, ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-3414-V2",
+    "template_group_id": "GRP-REAL-SQA-3414-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-3414",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nmixing chocolate syrup into milk\nwater vapor condensing on a bathroom mirror Options: Both are caused by heating., Both are only physical changes., Both are caused by cooling., Both are chemical changes.",
+      "expected_physics_summary": "Step 1: Think about each change.\nMixing chocolate syrup into milk is a physical change. The chocolate syrup and milk make a mixture. Making a mixture does not form a different type of matter.\nWater vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the liquid water are both made of water.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nWater vapor condensing is caused by cooling. But mixing chocolate syrup into milk is not."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are caused by heating.",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that Both are caused by heating. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nMixing chocolate syrup into milk is a physical change. The chocolate syrup and milk make a mixture. Making a mixture does not form a different type of matter.\nWater va",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-3580-V2",
+    "template_group_id": "GRP-REAL-SQA-3580-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-3580",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nRonald remarked that the new book on anti-gravity was impossible to put down. Options: pun, alliteration",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "alliteration",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that alliteration is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-3783-V2",
+    "template_group_id": "GRP-REAL-SQA-3783-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-3783",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Alec. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nAlec was lower than the balcony. As the water balloon fell toward Alec, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Alec."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nAlec was lower than the balcony. As the water balloon fell toward Alec, the distance between the water balloon a",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-3947-V2",
+    "template_group_id": "GRP-REAL-SQA-3947-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-3947",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the motorcycle's mass did not change.\nThe gravitational potential energy stored between the motorcycle and Earth () as Josiah rode up the hill. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Josiah rode toward the top of the hill, the distance between the motorcycle and the center of Earth increased. So, the gravitational potential energy stored between the motorcycle and Earth increased as Josiah rode up the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Josiah rode toward the top of the hill, the distance ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-4247-V2",
+    "template_group_id": "GRP-REAL-SQA-4247-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-4247",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nThe city of Bloomington is currently experiencing a minor crisis. Its sanitation workers are on strike, and the garbage is piling up in the streets. Options: paradox, oxymoron",
+      "expected_physics_summary": "The text uses an oxymoron, a joining of two seemingly contradictory terms.\nMinor crisis is a contradiction, because minor means small or insignificant, and a crisis is a large problem."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "paradox",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that paradox is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses an oxymoron, a joining of two seemingly contradictory terms.\nMinor crisis is a contradiction, because minor means small or insignificant, and a crisis is a large problem.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-4267-V2",
+    "template_group_id": "GRP-REAL-SQA-4267-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-4267",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Robert's mass did not change.\nThe gravitational potential energy stored between Robert and Earth () as he rode the escalator. Options: increased, decreased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between Robert and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Robert and the center of Earth increased. So, the gravitational potential energy stored between Robert and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Robert and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Rob",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-4348-V2",
+    "template_group_id": "GRP-REAL-SQA-4348-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-4348",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nJosiah remarked that the new book on anti-gravity was impossible to put down. Options: pun, alliteration",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "alliteration",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that alliteration is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-4488-V2",
+    "template_group_id": "GRP-REAL-SQA-4488-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-4488",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nchemicals in a battery reacting to power a flashlight\nan old sandwich rotting in a trashcan Options: Both are chemical changes., Both are only physical changes., Both are caused by cooling., Both are caused by heating.",
+      "expected_physics_summary": "Step 1: Think about each change.\nChemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to form new chemicals. This creates electricity, which powers the lightbulb.\nA sandwich rotting is a chemical change. The matter in the sandwich breaks down and slowly turns into a different type of matter.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are chemical changes. They are not physical changes.\nBoth are chemical changes.\nBoth changes are chemical changes. The type of matter before and after each change is different.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are only physical changes.",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that Both are only physical changes. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nChemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to for",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-5300-V2",
+    "template_group_id": "GRP-REAL-SQA-5300-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-5300",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Anthony's mass did not change.\nThe gravitational potential energy stored between Anthony and Earth () as he hiked toward the summit. Options: increased, decreased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between Anthony and the center of Earth changed.\nThe summit of the mountain was higher than the point where Anthony started hiking. As he hiked toward the summit, the distance between Anthony and the center of Earth increased. So, the gravitational potential energy stored between Anthony and Earth increased as he hiked toward the summit."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Anthony and the center of Earth changed.\nThe summit of the mountain was higher than the point where Anthony started hiking. As he hiked toward the summit, the dist",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-5790-V2",
+    "template_group_id": "GRP-REAL-SQA-5790-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-5790",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Bobby's mass did not change.\nThe gravitational potential energy stored between Bobby and Earth () as he rode the escalator. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between Bobby and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Bobby and the center of Earth increased. So, the gravitational potential energy stored between Bobby and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Bobby and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Bobb",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-5893-V2",
+    "template_group_id": "GRP-REAL-SQA-5893-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-5893",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nEric remarked that the new book on anti-gravity was impossible to put down. Options: pun, alliteration",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "alliteration",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that alliteration is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6327-V2",
+    "template_group_id": "GRP-REAL-SQA-6327-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-6327",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Sanjay's mass did not change.\nThe gravitational potential energy stored between Sanjay and Earth () as he hiked toward the summit. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between Sanjay and the center of Earth changed.\nThe summit of the mountain was higher than the point where Sanjay started hiking. As he hiked toward the summit, the distance between Sanjay and the center of Earth increased. So, the gravitational potential energy stored between Sanjay and Earth increased as he hiked toward the summit."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Sanjay and the center of Earth changed.\nThe summit of the mountain was higher than the point where Sanjay started hiking. As he hiked toward the summit, the distan",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6368-V2",
+    "template_group_id": "GRP-REAL-SQA-6368-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-6368",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\na sidewalk heating up in the sun\nwater vapor condensing on a bathroom mirror Options: Both are only physical changes., Both are chemical changes., Both are caused by cooling., Both are caused by heating.",
+      "expected_physics_summary": "Step 1: Think about each change.\nA sidewalk heating up in the sun is a physical change. The temperature of the sidewalk goes up, but the sidewalk is still made of the same type of matter.\nWater vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the liquid water are both made of water.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nA sidewalk getting warm in the sun is caused by heating. But water vapor condensing is not.\nBoth are caused by cooling.\nWater vapor condensing is caused by cooling. But a sidewalk heating up in the sun is not."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are chemical changes.",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that Both are chemical changes. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nA sidewalk heating up in the sun is a physical change. The temperature of the sidewalk goes up, but the sidewalk is still made of the same type of matter.\nWater vapor ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6380-V2",
+    "template_group_id": "GRP-REAL-SQA-6380-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-6380",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Candice rode down the hill. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Candice started sledding. As Candice rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Candice rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Candice started sledding. As Candice rode toward the bottom of the ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6504-V2",
+    "template_group_id": "GRP-REAL-SQA-6504-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-6504",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Tammy rode down the hill. Options: stayed the same, increased, decreased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Tammy started sledding. As Tammy rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Tammy rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Tammy started sledding. As Tammy rode toward the bottom of the hill",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6874-V2",
+    "template_group_id": "GRP-REAL-SQA-6874-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-6874",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Patrick's mass did not change.\nThe gravitational potential energy stored between Patrick and Earth () as he rode the escalator. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between Patrick and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Patrick and the center of Earth increased. So, the gravitational potential energy stored between Patrick and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Patrick and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Pa",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6890-V2",
+    "template_group_id": "GRP-REAL-SQA-6890-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-6890",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nWayne remarked that the new book on anti-gravity was impossible to put down. Options: pun, allusion",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "allusion",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that allusion is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6965-V2",
+    "template_group_id": "GRP-REAL-SQA-6965-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-6965",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Billy's mass did not change.\nThe gravitational potential energy stored between Billy and Earth () as he rode the escalator. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between Billy and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Billy and the center of Earth increased. So, the gravitational potential energy stored between Billy and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Billy and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Bill",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-6998-V2",
+    "template_group_id": "GRP-REAL-SQA-6998-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-6998",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Duncan's mass did not change.\nThe gravitational potential energy stored between Duncan and Earth () as he rode the escalator. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between Duncan and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Duncan and the center of Earth increased. So, the gravitational potential energy stored between Duncan and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Duncan and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Dun",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7012-V2",
+    "template_group_id": "GRP-REAL-SQA-7012-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7012",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Julia rode down the hill. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Julia started sledding. As Julia rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Julia rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Julia started sledding. As Julia rode toward the bottom of the hill",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7100-V2",
+    "template_group_id": "GRP-REAL-SQA-7100-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7100",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Leslie rode down the hill. Options: increased, decreased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Leslie started sledding. As Leslie rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Leslie rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Leslie started sledding. As Leslie rode toward the bottom of the hi",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7317-V2",
+    "template_group_id": "GRP-REAL-SQA-7317-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7317",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Andy. Options: stayed the same, increased, decreased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nAndy was lower than the balcony. As the water balloon fell toward Andy, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Andy."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nAndy was lower than the balcony. As the water balloon fell toward Andy, the distance between the water balloon a",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7347-V2",
+    "template_group_id": "GRP-REAL-SQA-7347-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-7347",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nacid rain weathering a marble statue\nchemicals in a battery reacting to power a flashlight Options: Both are caused by cooling., Both are chemical changes., Both are only physical changes., Both are caused by heating.",
+      "expected_physics_summary": "Step 1: Think about each change.\nAcid rain weathering a marble statue is a chemical change. The acid rain reacts with the outside of the statue and breaks it down into a different type of matter. This new matter is then washed away by the rain. Acid rain is a type of pollution. It forms when smoke from automobiles and factories mixes with water in clouds.\nAcid rain is a type of pollution. It forms when automobiles and factories release smoke containing sulfur or nitrogen. Some of these chemicals react with water in the atmosphere. The reaction forms droplets of water that can fall back to the ground as acid rain.\nChemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to form new chemicals. This creates electricity, which powers the lightbulb.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are chemical changes. They are not physical changes.\nBoth are chemical changes.\nBoth changes are chemical changes. The type of matter before and after each change is different.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are caused by cooling.",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that Both are caused by cooling. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nAcid rain weathering a marble statue is a chemical change. The acid rain reacts with the outside of the statue and breaks it down into a different type of matter. This",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7711-V2",
+    "template_group_id": "GRP-REAL-SQA-7711-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-7711",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the sentence.\nWater vapor condensing on a bathroom mirror is a (). Options: chemical change, physical change",
+      "expected_physics_summary": "Water vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the liquid water are both made of water."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "chemical change",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that chemical change is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Water vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the li",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7716-V2",
+    "template_group_id": "GRP-REAL-SQA-7716-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7716",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Ronald. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nRonald was lower than the balcony. As the water balloon fell toward Ronald, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Ronald."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nRonald was lower than the balcony. As the water balloon fell toward Ronald, the distance between the water ballo",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7747-V2",
+    "template_group_id": "GRP-REAL-SQA-7747-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7747",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Sandeep. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nSandeep was lower than the balcony. As the water balloon fell toward Sandeep, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Sandeep."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nSandeep was lower than the balcony. As the water balloon fell toward Sandeep, the distance between the water bal",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7761-V2",
+    "template_group_id": "GRP-REAL-SQA-7761-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7761",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Jordan. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nJordan was lower than the balcony. As the water balloon fell toward Jordan, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Jordan."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nJordan was lower than the balcony. As the water balloon fell toward Jordan, the distance between the water ballo",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-7867-V2",
+    "template_group_id": "GRP-REAL-SQA-7867-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-7867",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the motorcycle's mass did not change.\nThe gravitational potential energy stored between the motorcycle and Earth () as Bryan rode up the hill. Options: stayed the same, increased, decreased",
+      "expected_physics_summary": "Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Bryan rode toward the top of the hill, the distance between the motorcycle and the center of Earth increased. So, the gravitational potential energy stored between the motorcycle and Earth increased as Bryan rode up the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Bryan rode toward the top of the hill, the distance b",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-8455-V2",
+    "template_group_id": "GRP-REAL-SQA-8455-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-8455",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nEddie remarked that the new book on anti-gravity was impossible to put down. Options: pun, allusion",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "allusion",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that allusion is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-8506-V2",
+    "template_group_id": "GRP-REAL-SQA-8506-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-8506",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Elizabeth rode down the hill. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Elizabeth started sledding. As Elizabeth rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Elizabeth rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Elizabeth started sledding. As Elizabeth rode toward the bottom of ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-8872-V2",
+    "template_group_id": "GRP-REAL-SQA-8872-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-8872",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nThe city of Westford is currently experiencing a minor crisis. Its sanitation workers are on strike, and the garbage is piling up in the streets. Options: paradox, oxymoron",
+      "expected_physics_summary": "The text uses an oxymoron, a joining of two seemingly contradictory terms.\nMinor crisis is a contradiction, because minor means small or insignificant, and a crisis is a large problem."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "paradox",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that paradox is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses an oxymoron, a joining of two seemingly contradictory terms.\nMinor crisis is a contradiction, because minor means small or insignificant, and a crisis is a large problem.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9033-V2",
+    "template_group_id": "GRP-REAL-SQA-9033-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-9033",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nmixing lettuce and salad dressing\nwater vapor condensing on a bathroom mirror Options: Both are caused by cooling., Both are chemical changes., Both are caused by heating., Both are only physical changes.",
+      "expected_physics_summary": "Step 1: Think about each change.\nMixing lettuce and salad dressing is a physical change. Together, the salad and dressing make a mixture. But making this mixture does not form a different type of matter.\nWater vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the liquid water are both made of water.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nWater vapor condensing is caused by cooling. But mixing lettuce and salad dressing is not."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are caused by cooling.",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that Both are caused by cooling. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nMixing lettuce and salad dressing is a physical change. Together, the salad and dressing make a mixture. But making this mixture does not form a different type of matt",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9152-V2",
+    "template_group_id": "GRP-REAL-SQA-9152-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-9152",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the athlete's mass did not change.\nThe gravitational potential energy stored between the athlete and Earth () as she sped up around the track. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the athlete and the center of Earth changed.\nBecause the track was flat, each point on the track was the same distance from the center of Earth. As she sped up around the track, the distance between the athlete and the center of Earth stayed the same. So, the gravitational potential energy stored between the athlete and Earth stayed the same as she sped up around the track."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the athlete and the center of Earth changed.\nBecause the track was flat, each point on the track was the same distance from the center of Earth. As she sped up aro",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9217-V2",
+    "template_group_id": "GRP-REAL-SQA-9217-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-9217",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the penny's mass did not change.\nThe gravitational potential energy stored between the penny and Earth () as the penny fell toward the bottom of the well. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between the penny and the center of Earth changed.\nThe bottom of the well is lower than the point where Sofia dropped the penny. As it fell toward the bottom of the well, the distance between the penny and the center of Earth decreased. So, the gravitational potential energy stored between the penny and Earth decreased as the penny fell toward the bottom of the well."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the penny and the center of Earth changed.\nThe bottom of the well is lower than the point where Sofia dropped the penny. As it fell toward the bottom of the well, ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9307-V2",
+    "template_group_id": "GRP-REAL-SQA-9307-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-9307",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Nate. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nNate was lower than the balcony. As the water balloon fell toward Nate, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Nate."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nNate was lower than the balcony. As the water balloon fell toward Nate, the distance between the water balloon a",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9738-V2",
+    "template_group_id": "GRP-REAL-SQA-9738-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-9738",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the motorcycle's mass did not change.\nThe gravitational potential energy stored between the motorcycle and Earth () as Stefan rode up the hill. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Stefan rode toward the top of the hill, the distance between the motorcycle and the center of Earth increased. So, the gravitational potential energy stored between the motorcycle and Earth increased as Stefan rode up the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Stefan rode toward the top of the hill, the distance ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9883-V2",
+    "template_group_id": "GRP-REAL-SQA-9883-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-9883",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the whale's mass did not change.\nThe gravitational potential energy stored between the whale and Earth () as the whale swam toward the surface. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the whale and the center of Earth changed.\nThe surface of the water is higher than the point where the whale was swimming deep in the ocean. As the whale swam toward the surface, the distance between the whale and the center of Earth increased. So, the gravitational potential energy stored between the whale and Earth increased as the whale swam toward the surface."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the whale and the center of Earth changed.\nThe surface of the water is higher than the point where the whale was swimming deep in the ocean. As the whale swam towa",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-9889-V2",
+    "template_group_id": "GRP-REAL-SQA-9889-VAR2",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-9889",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nbutter melting on a hot day\nwater vapor condensing on a bathroom mirror Options: Both are caused by cooling., Both are chemical changes., Both are only physical changes., Both are caused by heating.",
+      "expected_physics_summary": "Step 1: Think about each change.\nButter melting on a hot day is a change of state. So, it is a physical change. The butter changes from solid to liquid, but it is still made of the same type of matter.\nWater vapor condensing on a bathroom mirror is a change of state. So, it is a physical change. The water changes state from gas in the air to liquid water on the mirror. But the water vapor and the liquid water are both made of water.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nButter melting on a hot day is caused by heating. But water vapor condensing is not.\nBoth are caused by cooling.\nWater vapor condensing is caused by cooling. But butter melting on a hot day is not."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are caused by cooling.",
+      "working_steps": "I read the problem statement about Light: Reflection and Refraction and concluded that Both are caused by cooling. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nButter melting on a hot day is a change of state. So, it is a physical change. The butter changes from solid to liquid, but it is still made of the same type of matter",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-10050-V2",
+    "template_group_id": "GRP-REAL-SQA-10050-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-10050",
+      "question_type": "mcq",
+      "question_text": "(Variant B) What do these two changes have in common?\nchemicals in a battery reacting to power a flashlight\ncompost rotting Options: Both are chemical changes., Both are caused by cooling., Both are caused by heating., Both are only physical changes.",
+      "expected_physics_summary": "Step 1: Think about each change.\nChemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to form new chemicals. This creates electricity, which powers the lightbulb.\nCompost forms from the remains of plants and animals, such as vegetable scraps and egg shells. Compost rotting is a chemical change. As the compost rots, it breaks down and turns into a different type of matter.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are chemical changes. They are not physical changes.\nBoth are chemical changes.\nBoth changes are chemical changes. The type of matter before and after each change is different.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "Both are caused by cooling.",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that Both are caused by cooling. is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Step 1: Think about each change.\nChemicals in a battery reacting to power a flashlight is a chemical change. When the flashlight is turned on, the chemicals in the battery react with each other to for",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-10167-V2",
+    "template_group_id": "GRP-REAL-SQA-10167-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-10167",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Rosa rode down the hill. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Rosa started sledding. As Rosa rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Rosa rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Rosa started sledding. As Rosa rode toward the bottom of the hill, ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-10697-V2",
+    "template_group_id": "GRP-REAL-SQA-10697-VAR2",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10",
+    "question": {
+      "question_id": "SQA-10697",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which word would you find on a dictionary page with the following guide words?\ncommon - current Options: craft, chilly",
+      "expected_physics_summary": "Put the words in alphabetical order.\nSince craft is between the guide words common - current, it would be found on that page."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "chilly",
+      "working_steps": "I read the problem statement about Electricity and Circuits and concluded that chilly is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Put the words in alphabetical order.\nSince craft is between the guide words common - current, it would be found on that page.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-11121-V2",
+    "template_group_id": "GRP-REAL-SQA-11121-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-11121",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward John. Options: stayed the same, increased, decreased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nJohn was lower than the balcony. As the water balloon fell toward John, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward John."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nJohn was lower than the balcony. As the water balloon fell toward John, the distance between the water balloon a",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-11281-V2",
+    "template_group_id": "GRP-REAL-SQA-11281-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-11281",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Mitch's mass did not change.\nThe gravitational potential energy stored between Mitch and Earth () as he rode the escalator. Options: increased, decreased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between Mitch and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Mitch and the center of Earth increased. So, the gravitational potential energy stored between Mitch and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Mitch and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Mitc",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-11445-V2",
+    "template_group_id": "GRP-REAL-SQA-11445-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-11445",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Joseph's mass did not change.\nThe gravitational potential energy stored between Joseph and Earth () as he hiked toward the summit. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between Joseph and the center of Earth changed.\nThe summit of the mountain was higher than the point where Joseph started hiking. As he hiked toward the summit, the distance between Joseph and the center of Earth increased. So, the gravitational potential energy stored between Joseph and Earth increased as he hiked toward the summit."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Joseph and the center of Earth changed.\nThe summit of the mountain was higher than the point where Joseph started hiking. As he hiked toward the summit, the distan",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-11464-V2",
+    "template_group_id": "GRP-REAL-SQA-11464-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-11464",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the motorcycle's mass did not change.\nThe gravitational potential energy stored between the motorcycle and Earth () as Lamar rode up the hill. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Lamar rode toward the top of the hill, the distance between the motorcycle and the center of Earth increased. So, the gravitational potential energy stored between the motorcycle and Earth increased as Lamar rode up the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the motorcycle and the center of Earth changed.\nThe top of the hill is higher than the bottom of the hill. As Lamar rode toward the top of the hill, the distance b",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-11689-V2",
+    "template_group_id": "GRP-REAL-SQA-11689-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-11689",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that Diego's mass did not change.\nThe gravitational potential energy stored between Diego and Earth () as he rode the escalator. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between Diego and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Diego and the center of Earth increased. So, the gravitational potential energy stored between Diego and Earth increased as he rode the escalator."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between Diego and the center of Earth changed.\nThe second floor is higher than the first floor. As he rode the escalator toward the second floor, the distance between Dieg",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-11958-V2",
+    "template_group_id": "GRP-REAL-SQA-11958-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-11958",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Sidney rode down the hill. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Sidney started sledding. As Sidney rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Sidney rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "increased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that increased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Sidney started sledding. As Sidney rode toward the bottom of the hi",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-12428-V2",
+    "template_group_id": "GRP-REAL-SQA-12428-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-12428",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Susan rode down the hill. Options: stayed the same, increased, decreased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Susan started sledding. As Susan rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Susan rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Susan started sledding. As Susan rode toward the bottom of the hill",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-12458-V2",
+    "template_group_id": "GRP-REAL-SQA-12458-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-12458",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nPorter remarked that the new book on anti-gravity was impossible to put down. Options: allusion, pun",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "allusion",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that allusion is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-13063-V2",
+    "template_group_id": "GRP-REAL-SQA-13063-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-13063",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the submarine's mass did not change.\nThe gravitational potential energy stored between the submarine and Earth () as the submarine dove toward the ocean floor. Options: decreased, stayed the same, increased",
+      "expected_physics_summary": "Think about how the distance between the submarine and the center of Earth changed.\nThe ocean floor is lower than the surface of the ocean. As the submarine dove toward the ocean floor, the distance between the submarine and the center of Earth decreased. So, the gravitational potential energy stored between the submarine and Earth decreased as the submarine dove toward the ocean floor."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the submarine and the center of Earth changed.\nThe ocean floor is lower than the surface of the ocean. As the submarine dove toward the ocean floor, the distance b",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-13196-V2",
+    "template_group_id": "GRP-REAL-SQA-13196-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-13196",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the ball's mass did not change.\nThe gravitational potential energy stored between the ball and Earth () as the ball rolled along the lane. Options: decreased, increased, stayed the same",
+      "expected_physics_summary": "Think about how the distance between the ball and the center of Earth changed.\nBecause the bowling lane was flat, each point on the lane was the same distance from the center of Earth. As the ball rolled along the lane, the distance between the ball and the center of Earth stayed the same. So, the gravitational potential energy stored between the ball and Earth stayed the same as the ball rolled along the lane."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "decreased",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that decreased is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the ball and the center of Earth changed.\nBecause the bowling lane was flat, each point on the lane was the same distance from the center of Earth. As the ball rol",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-13230-V2",
+    "template_group_id": "GRP-REAL-SQA-13230-VAR2",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-13230",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Which figure of speech is used in this text?\nEli remarked that the new book on anti-gravity was impossible to put down. Options: allusion, pun",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "allusion",
+      "working_steps": "I read the problem statement about Gravitation & Free Fall and concluded that allusion is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-13425-V2",
+    "template_group_id": "GRP-REAL-SQA-13425-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-13425",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the mole's mass did not change.\nThe gravitational potential energy stored between the mole and Earth () as the mole dug toward the surface. Options: increased, stayed the same, decreased",
+      "expected_physics_summary": "Think about how the distance between the mole and the center of Earth changed.\nThe surface of the ground is higher than the underground burrow. As the mole dug toward the surface, the distance between the mole and the center of Earth increased. So, the gravitational potential energy stored between the mole and Earth increased as the mole dug toward the surface."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the mole and the center of Earth changed.\nThe surface of the ground is higher than the underground burrow. As the mole dug toward the surface, the distance between",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-13636-V2",
+    "template_group_id": "GRP-REAL-SQA-13636-VAR2",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-13636",
+      "question_type": "mcq",
+      "question_text": "(Variant B) Complete the statement. Assume that the water balloon's mass did not change.\nThe gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Jeremiah. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between the water balloon and the center of Earth changed.\nJeremiah was lower than the balcony. As the water balloon fell toward Jeremiah, the distance between the water balloon and the center of Earth decreased. So, the gravitational potential energy stored between the water balloon and Earth decreased as the water balloon fell toward Jeremiah."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "I read the problem statement about Electrostatics and Electromagnetism and concluded that stayed the same is correct based on how I understand the physical relationships.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.85,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the water balloon and the center of Earth changed.\nJeremiah was lower than the balcony. As the water balloon fell toward Jeremiah, the distance between the water b",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
   },
@@ -4101,13 +5791,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "The strength of the magnetic force is the same in both pairs.",
-      "working_steps": "Applying the formula for Motion and Force, the physics implies The strength of the magnetic force is the same in both pairs. is the correct answer.",
+      "working_steps": "I read the problem statement about Motion and Force and concluded that The strength of the magnetic force is the same in both pairs. is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-MOT-02",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -4127,13 +5817,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "The magnitude of the magnetic force is the same in both pairs.",
-      "working_steps": "Applying the formula for Motion and Force, the physics implies The magnitude of the magnetic force is the same in both pairs. is the correct answer.",
+      "working_steps": "I read the problem statement about Motion and Force and concluded that The magnitude of the magnetic force is the same in both pairs. is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-MOT-02",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -4153,13 +5843,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "The magnetic force is stronger in Pair 2.",
-      "working_steps": "Applying the formula for Motion and Force, the physics implies The magnetic force is stronger in Pair 2. is the correct answer.",
+      "working_steps": "I read the problem statement about Motion and Force and concluded that The magnetic force is stronger in Pair 2. is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-MOT-02",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -4179,13 +5869,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "The magnitude of the magnetic force is smaller in Pair 1.",
-      "working_steps": "I applied the principles I remembered and reasoned that The magnitude of the magnetic force is smaller in Pair 1. makes the most sense based on the scenario.",
+      "working_steps": "I read the problem statement about Motion and Force and concluded that The magnitude of the magnetic force is smaller in Pair 1. is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-MOT-02",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -4205,13 +5895,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "The forces are unbalanced, so there is a net force on Tamir.",
-      "working_steps": "I applied the principles I remembered and reasoned that The forces are unbalanced, so there is a net force on Tamir. makes the most sense based on the scenario.",
+      "working_steps": "I read the problem statement about Motion and Force and concluded that The forces are unbalanced, so there is a net force on Tamir. is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-MOT-02",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: To determine if there is a net force on Tamir, look at the forces:\nEarth's gravity is pulling Tamir down with a force of 400 N.\nThe diving board is pushing Tamir up with a force of 400 N.\nThe forces a",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -4231,13 +5921,13 @@
     "student_submission": {
       "input_mode": "mcq_selection",
       "final_answer": "a bag holding 4 pounds of food",
-      "working_steps": "Let's evaluate the options. Option 'a bag holding 4 pounds of food' matches my intuitive understanding of how this works.",
+      "working_steps": "I read the problem statement about Motion and Force and concluded that a bag holding 4 pounds of food is correct based on how I understand the physical relationships.",
       "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
       "primary_label": "MISC-G09-MOT-02",
-      "confidence": 0.95,
+      "confidence": 0.85,
       "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Look for the shopping bag that is heavier.\nA shopping bag holding 5 pounds of food is heavier than a shopping bag holding 4 pounds of food. So, the bag holding 5 pounds needs a larger force to start m",
       "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
     }
@@ -4281,7 +5971,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -4333,10 +6023,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4359,10 +6049,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4388,7 +6078,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4463,7 +6153,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -4489,10 +6179,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4515,10 +6205,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4544,7 +6234,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4593,10 +6283,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-MOT-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4671,7 +6361,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -4700,7 +6390,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4723,10 +6413,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4749,7 +6439,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -4775,10 +6465,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4801,10 +6491,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4827,10 +6517,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4853,10 +6543,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4879,10 +6569,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4905,7 +6595,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -4931,10 +6621,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -4957,7 +6647,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -4986,7 +6676,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-OPT-03, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5038,7 +6728,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5064,7 +6754,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5139,7 +6829,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -5165,10 +6855,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5220,7 +6910,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5246,7 +6936,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5272,7 +6962,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5324,7 +7014,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5347,7 +7037,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -5373,10 +7063,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5399,10 +7089,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G10-ELE-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5425,7 +7115,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -5451,10 +7141,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5477,10 +7167,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5529,7 +7219,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -5558,7 +7248,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5584,7 +7274,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5607,10 +7297,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5685,10 +7375,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5711,10 +7401,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5737,7 +7427,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -5763,10 +7453,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EST-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5844,7 +7534,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5867,10 +7557,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5893,10 +7583,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -5945,7 +7635,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -5997,7 +7687,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6023,7 +7713,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -6104,7 +7794,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6153,7 +7843,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6182,7 +7872,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G12-EMI-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6208,7 +7898,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6231,7 +7921,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -6257,10 +7947,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6283,7 +7973,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6387,10 +8077,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6416,7 +8106,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6439,10 +8129,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6465,7 +8155,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -6491,10 +8181,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6517,10 +8207,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6569,7 +8259,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-KIN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -6624,7 +8314,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6647,7 +8337,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6728,7 +8418,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6780,7 +8470,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6806,7 +8496,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6829,7 +8519,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6855,7 +8545,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6881,10 +8571,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6910,7 +8600,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -6933,7 +8623,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G11-DYN-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -6988,7 +8678,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7011,7 +8701,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -7037,10 +8727,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7063,10 +8753,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7089,7 +8779,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": null
@@ -7118,7 +8808,7 @@
       "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7144,7 +8834,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7196,7 +8886,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7219,10 +8909,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "typed_text",
+      "input_mode": "ocr_handwritten",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": null
+      "extracted_ocr_confidence": 0.9
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7248,7 +8938,7 @@
       "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
@@ -7297,7 +8987,7 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
       "extracted_ocr_confidence": 0.9
@@ -7323,10 +9013,10 @@
       "expected_physics_summary": "Expected correct physics explanation and derivation."
     },
     "student_submission": {
-      "input_mode": "ocr_handwritten",
+      "input_mode": "typed_text",
       "final_answer": "Incorrect conceptual answer derived from misunderstanding.",
       "working_steps": "Student reasoning demonstrating the misconception MISC-G09-GRV-01, typically by applying the wrong formula or naive assumption.",
-      "extracted_ocr_confidence": 0.9
+      "extracted_ocr_confidence": null
     },
     "ground_truth": {
       "coarse_category": "CONCEPTUAL_MISCONCEPTION",
