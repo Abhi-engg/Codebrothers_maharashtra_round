@@ -1,0 +1,236 @@
+{
+  "version": "2.0.0",
+  "domains": [
+    {
+      "grade": 9,
+      "chapter": "Motion and Force",
+      "concepts": [
+        {
+          "concept_id": "G09-MOT",
+          "concept_name": "Kinematics & Vector Quantities",
+          "standard_formulae": [
+            "v = u + at",
+            "s = ut + (1/2)at^2",
+            "v^2 = u^2 + 2as"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G09-MOT-01",
+              "name": "Conflation of Distance and Displacement",
+              "description": "Treats displacement as scalar distance, ignoring direction in closed or reverse paths.",
+              "trigger_pattern": "Calculates non-zero average velocity for round-trips where displacement is zero.",
+              "ncert_mapping": "Class 9 Science, Chapter 8, Section 8.1"
+            },
+            {
+              "misconception_id": "MISC-G09-MOT-02",
+              "name": "Aristotelian Impetus Fallacy",
+              "description": "Believes a continuous net force is necessary to sustain constant velocity.",
+              "trigger_pattern": "Asserts F_net > 0 when acceleration a = 0 on frictionless surfaces.",
+              "ncert_mapping": "Class 9 Science, Chapter 9, Section 9.1"
+            }
+          ]
+        },
+        {
+          "concept_id": "G09-GRV",
+          "concept_name": "Gravitation & Free Fall",
+          "standard_formulae": [
+            "F = G*(m1*m2)/r^2",
+            "g = G*M/R^2",
+            "v = u + gt"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G09-GRV-01",
+              "name": "Mass-Dependent Gravitational Acceleration",
+              "description": "Believes heavier objects accelerate faster during free fall in vacuum.",
+              "trigger_pattern": "Predicts a heavier mass reaches the ground first when air resistance is neglected.",
+              "ncert_mapping": "Class 9 Science, Chapter 10, Section 10.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "chapter": "Light: Reflection and Refraction",
+      "concepts": [
+        {
+          "concept_id": "G10-OPT",
+          "concept_name": "Spherical Mirrors & Lenses",
+          "standard_formulae": [
+            "1/v + 1/u = 1/f (Mirror)",
+            "1/v - 1/u = 1/f (Lens)",
+            "m = -v/u (Mirror)",
+            "m = v/u (Lens)"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G10-OPT-01",
+              "name": "Cartesian Sign Inversion for Focal Length",
+              "description": "Assigns positive sign to concave mirror focal length or reverses sign convention.",
+              "trigger_pattern": "Substitutes f = +15 cm instead of f = -15 cm for concave mirror.",
+              "ncert_mapping": "Class 10 Science, Chapter 10, Section 10.2.3"
+            },
+            {
+              "misconception_id": "MISC-G10-OPT-02",
+              "name": "Mirror vs. Lens Formula Swap",
+              "description": "Applies lens formula (1/v - 1/u = 1/f) to mirror problems or vice versa.",
+              "trigger_pattern": "Subtracts 1/u instead of adding 1/u in spherical mirror calculations.",
+              "ncert_mapping": "Class 10 Science, Chapter 10, Section 10.2.4"
+            },
+            {
+              "misconception_id": "MISC-G10-OPT-03",
+              "name": "Universal Inversion Assumption for Concave Mirrors",
+              "description": "Assumes concave mirrors can only produce real, inverted images regardless of object position.",
+              "trigger_pattern": "Claims image is real and inverted when object is between Pole and Focus.",
+              "ncert_mapping": "Class 10 Science, Chapter 10, Section 10.2.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "chapter": "Electricity and Circuits",
+      "concepts": [
+        {
+          "concept_id": "G10-ELE",
+          "concept_name": "Ohm's Law & Resistor Networks",
+          "standard_formulae": [
+            "V = I*R",
+            "R_s = R1 + R2",
+            "1/R_p = 1/R1 + 1/R2",
+            "P = V*I = I^2*R"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G10-ELE-01",
+              "name": "Current Attenuation Fallacy",
+              "description": "Believes electric current is consumed as it passes through series resistors.",
+              "trigger_pattern": "States current after R1 is smaller than current before R1 in series.",
+              "ncert_mapping": "Class 10 Science, Chapter 12, Section 12.6.1"
+            },
+            {
+              "misconception_id": "MISC-G10-ELE-02",
+              "name": "Parallel Equal Current Assumption",
+              "description": "Assumes current divides equally across parallel branches regardless of resistance values.",
+              "trigger_pattern": "Divides total current equally when branch resistances are unequal.",
+              "ncert_mapping": "Class 10 Science, Chapter 12, Section 12.6.2"
+            },
+            {
+              "misconception_id": "MISC-G10-ELE-03",
+              "name": "Parallel Resistance Reciprocal Inversion Omission",
+              "description": "Calculates 1/R_p = 1/R1 + 1/R2 but forgets to take reciprocal, reporting decimal sum as R_p.",
+              "trigger_pattern": "Reports R_p as 0.25 ohms instead of 4 ohms.",
+              "ncert_mapping": "Class 10 Science, Chapter 12, Section 12.6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "chapter": "Mechanics and Dynamics",
+      "concepts": [
+        {
+          "concept_id": "G11-KIN",
+          "concept_name": "2D Projectile Kinematics",
+          "standard_formulae": [
+            "H_max = (u^2 * sin^2(theta))/(2g)",
+            "a_y = -g",
+            "v_x = u*cos(theta)"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G11-KIN-01",
+              "name": "Zero-Velocity Implies Zero-Acceleration at Apex",
+              "description": "Assumes acceleration is zero at maximum projectile height because instantaneous vertical velocity is zero.",
+              "trigger_pattern": "Claims a = 0 m/s^2 at the top of projectile flight.",
+              "ncert_mapping": "Class 11 Physics Part 1, Chapter 4, Section 4.10"
+            }
+          ]
+        },
+        {
+          "concept_id": "G11-DYN",
+          "concept_name": "Newton's Laws & Normal Force on Incline",
+          "standard_formulae": [
+            "N = m*g*cos(theta)",
+            "f_max = mu * N"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G11-DYN-01",
+              "name": "Normal Force Universal mg Equivalence",
+              "description": "Equates normal reaction force N universally to mg, neglecting incline angle theta.",
+              "trigger_pattern": "Uses N = mg on inclined surfaces instead of N = mg*cos(theta).",
+              "ncert_mapping": "Class 11 Physics Part 1, Chapter 5, Section 5.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "chapter": "Electrostatics and Electromagnetism",
+      "concepts": [
+        {
+          "concept_id": "G12-EST",
+          "concept_name": "Electric Potential & Fields",
+          "standard_formulae": [
+            "E = -dV/dr",
+            "V = k*q/r",
+            "E = k*q/r^2"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G12-EST-01",
+              "name": "Zero Potential Implies Zero Electric Field",
+              "description": "Conflates scalar electric potential V with vector field E, assuming V=0 entails E=0.",
+              "trigger_pattern": "Claims electric field is zero at the midpoint between opposite charges of an electric dipole.",
+              "ncert_mapping": "Class 12 Physics Part 1, Chapter 2, Section 2.4"
+            }
+          ]
+        },
+        {
+          "concept_id": "G12-EMI",
+          "concept_name": "Electromagnetic Induction & Lenz's Law",
+          "standard_formulae": [
+            "emf = -dPhi/dt",
+            "Phi = B*A*cos(theta)"
+          ],
+          "misconceptions": [
+            {
+              "misconception_id": "MISC-G12-EMI-01",
+              "name": "Lenz's Law Opposes Field Rather Than Flux Change",
+              "description": "Believes induced magnetic field always opposes external field direction, rather than opposing the change in flux.",
+              "trigger_pattern": "Predicts opposing induced B-field even when external field is collapsing/decreasing.",
+              "ncert_mapping": "Class 12 Physics Part 1, Chapter 6, Section 6.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "baseline_classes": [
+    {
+      "class_id": "CORRECT",
+      "name": "Correct Solution",
+      "description": "Accurate physical reasoning, valid substitutions, correct result."
+    },
+    {
+      "class_id": "SLIP-ARITHMETIC",
+      "name": "Arithmetic Calculation Slip",
+      "description": "Correct physics and formula, but computation slip."
+    },
+    {
+      "class_id": "SLIP-UNIT",
+      "name": "Unit Conversion Error",
+      "description": "Correct physical concepts, but omitted or incorrect unit conversion."
+    },
+    {
+      "class_id": "UNCERTAIN-GUESS",
+      "name": "Insufficient Working / Guess",
+      "description": "Bare answer entered without steps or contradictory scribbles; system abstains."
+    }
+  ]
+}

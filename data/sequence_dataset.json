@@ -1,0 +1,962 @@
+[
+  {
+    "session_id": "SESS-10-001",
+    "student_id": "STU-2824",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-002",
+    "student_id": "STU-1409",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-003",
+    "student_id": "STU-5506",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-004",
+    "student_id": "STU-5012",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-005",
+    "student_id": "STU-4657",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-006",
+    "student_id": "STU-3286",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-007",
+    "student_id": "STU-2679",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-10-008",
+    "student_id": "STU-9935",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/15 - 1/20 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.94
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "+60 cm",
+        "working_provided": "1/v = 1/20 - 1/30 = 1/60 => v = 60 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.96
+      },
+      {
+        "step_index": 3,
+        "question_id": "Q-GRP-G10-MIRROR-01-03",
+        "student_answer": "+48 cm",
+        "working_provided": "1/v = 1/16 - 1/24 = 1/48 => v = 48 cm",
+        "model1_individual_diagnosis": "MISC-G10-OPT-01",
+        "model1_confidence": 0.95
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-OPT-01",
+    "temporal_transition": "Student consistently substitutes focal length of concave mirror as positive across 3 consecutive numerical problems.",
+    "recommendation": "DELIVER_CARTESIAN_SIGN_CONVENTION_WHITEBOARD_INTERVENTION"
+  },
+  {
+    "session_id": "SESS-09-009",
+    "student_id": "STU-2424",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-010",
+    "student_id": "STU-7912",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-011",
+    "student_id": "STU-1520",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-012",
+    "student_id": "STU-1488",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-013",
+    "student_id": "STU-2535",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-014",
+    "student_id": "STU-4582",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-015",
+    "student_id": "STU-4811",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-09-016",
+    "student_id": "STU-9279",
+    "grade": 9,
+    "topic_domain": "Motion and Force",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G09-FORCE-01-01",
+        "student_answer": "5 N",
+        "working_provided": "F = m*v = 0.5 * 10 = 5 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.95
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G09-FORCE-01-02",
+        "student_answer": "15 N",
+        "working_provided": "Need force to maintain motion: F = 1.0 * 15 = 15 N",
+        "model1_individual_diagnosis": "MISC-G09-MOT-02",
+        "model1_confidence": 0.97
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G09-MOT-02",
+    "temporal_transition": "Repeated application of Aristotelian impetus model (F = mv instead of F = ma).",
+    "recommendation": "TARGETED_NEWTON_FIRST_LAW_SIMULATION"
+  },
+  {
+    "session_id": "SESS-10-017",
+    "student_id": "STU-1434",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-018",
+    "student_id": "STU-4257",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-019",
+    "student_id": "STU-9928",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-020",
+    "student_id": "STU-7873",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-021",
+    "student_id": "STU-4611",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-022",
+    "student_id": "STU-8359",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-023",
+    "student_id": "STU-5557",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-024",
+    "student_id": "STU-1106",
+    "grade": 10,
+    "topic_domain": "Electricity: Parallel Resistors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+        "student_answer": "Rp = 0.25 ohms",
+        "working_provided": "1/Rp = 1/6 + 1/12 = 3/12 = 0.25 ohms",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.98
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+        "student_answer": "Rp = 0.166 ohms",
+        "working_provided": "1/Rp = 1/10 + 1/15 = 5/30 = 0.166",
+        "model1_individual_diagnosis": "MISC-G10-ELE-03",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "PERSISTENT_MISCONCEPTION",
+    "persistent_misconception_id": "MISC-G10-ELE-03",
+    "temporal_transition": "Student systematically calculates the reciprocal sum but omits the final inversion step across parallel circuit problems.",
+    "recommendation": "HIGHLIGHT_RECIPROCAL_INVERSION_STEP"
+  },
+  {
+    "session_id": "SESS-10-025",
+    "student_id": "STU-3615",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-026",
+    "student_id": "STU-7924",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-027",
+    "student_id": "STU-6574",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-028",
+    "student_id": "STU-5552",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-029",
+    "student_id": "STU-3547",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-030",
+    "student_id": "STU-4527",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-031",
+    "student_id": "STU-6514",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  },
+  {
+    "session_id": "SESS-10-032",
+    "student_id": "STU-2674",
+    "grade": 10,
+    "topic_domain": "Light: Spherical Mirrors",
+    "steps": [
+      {
+        "step_index": 1,
+        "question_id": "Q-GRP-G10-MIRROR-01-01",
+        "student_answer": "-51.0 cm",
+        "working_provided": "1/v = -1/15 + 1/20 = arithmetic slip",
+        "model1_individual_diagnosis": "SLIP-ARITHMETIC",
+        "model1_confidence": 0.88
+      },
+      {
+        "step_index": 2,
+        "question_id": "Q-GRP-G10-MIRROR-01-02",
+        "student_answer": "-60.0 cm",
+        "working_provided": "1/v = 1/(-20) - 1/(-30) = -1/60 => v = -60 cm",
+        "model1_individual_diagnosis": "CORRECT",
+        "model1_confidence": 0.99
+      }
+    ],
+    "pattern_type": "TRANSIENT_SLIP",
+    "persistent_misconception_id": null,
+    "temporal_transition": "One-off arithmetic slip followed immediately by correct conceptual application. No cognitive misconception present.",
+    "recommendation": "ENCOURAGE_CAREFUL_CALCULATION_NO_REMEDIATION_NEEDED"
+  }
+]

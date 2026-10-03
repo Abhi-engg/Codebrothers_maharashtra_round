@@ -1,0 +1,302 @@
+[
+  {
+    "record_id": "RESP-G11-0086",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 10 kg rests on a frictionless plane inclined at an angle of 30 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "84.87 N",
+      "working_steps": "Resolving weight perpendicular to incline: N = mg * cos(theta)\nN = 10 * 9.8 * cos(30 deg) = 98.0 * 0.866 = 84.87 N",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate free-body diagram resolution along the normal axis."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0087",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 10 kg rests on a frictionless plane inclined at an angle of 30 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "98.0 N",
+      "working_steps": "Normal force always balances the weight of the object. N = m * g = 10 * 9.8 = 98.0 N perpendicular to surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0087-VAR",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 10 kg rests on a frictionless plane inclined at an angle of 30 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "98.0 N",
+      "working_steps": "Step by step: Normal force always balances the weight of the object. N = m * g = 10 * 9.8 = 98.0 N perpendicular to surface.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0088",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 5 kg rests on a frictionless plane inclined at an angle of 45 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "34.65 N",
+      "working_steps": "Resolving weight perpendicular to incline: N = mg * cos(theta)\nN = 5 * 9.8 * cos(45 deg) = 49.0 * 0.7071 = 34.65 N",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate free-body diagram resolution along the normal axis."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0089",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 5 kg rests on a frictionless plane inclined at an angle of 45 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "49.0 N",
+      "working_steps": "Normal force always balances the weight of the object. N = m * g = 5 * 9.8 = 49.0 N perpendicular to surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0089-VAR",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 5 kg rests on a frictionless plane inclined at an angle of 45 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "49.0 N",
+      "working_steps": "Step by step: Normal force always balances the weight of the object. N = m * g = 5 * 9.8 = 49.0 N perpendicular to surface.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0090",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 20 kg rests on a frictionless plane inclined at an angle of 60 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "98.0 N",
+      "working_steps": "Resolving weight perpendicular to incline: N = mg * cos(theta)\nN = 20 * 9.8 * cos(60 deg) = 196.0 * 0.5 = 98.0 N",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate free-body diagram resolution along the normal axis."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0091",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 20 kg rests on a frictionless plane inclined at an angle of 60 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "196.0 N",
+      "working_steps": "Normal force always balances the weight of the object. N = m * g = 20 * 9.8 = 196.0 N perpendicular to surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0091-VAR",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 20 kg rests on a frictionless plane inclined at an angle of 60 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "196.0 N",
+      "working_steps": "Step by step: Normal force always balances the weight of the object. N = m * g = 20 * 9.8 = 196.0 N perpendicular to surface.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0092",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 8 kg rests on a frictionless plane inclined at an angle of 37 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "62.62 N",
+      "working_steps": "Resolving weight perpendicular to incline: N = mg * cos(theta)\nN = 8 * 9.8 * cos(37 deg) = 78.4 * 0.7987 = 62.62 N",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate free-body diagram resolution along the normal axis."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0093",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 8 kg rests on a frictionless plane inclined at an angle of 37 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "78.4 N",
+      "working_steps": "Normal force always balances the weight of the object. N = m * g = 8 * 9.8 = 78.4 N perpendicular to surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0093-VAR",
+    "template_group_id": "GRP-G11-INCLINE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-DYN",
+    "question": {
+      "question_id": "Q-GRP-G11-INCLINE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A block of mass 8 kg rests on a frictionless plane inclined at an angle of 37 degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2).",
+      "expected_physics_summary": "A block of mass {mass} kg rests on a frictionless plane inclined at an angle of {theta} degrees to the horizontal. Calculate the normal reaction force exerted by the plane on the block (take g = 9.8 m/s^2)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "78.4 N",
+      "working_steps": "Step by step: Normal force always balances the weight of the object. N = m * g = 8 * 9.8 = 78.4 N perpendicular to surface.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-DYN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Assumes normal force is universally equal to mg regardless of surface incline angle."
+    }
+  }
+]

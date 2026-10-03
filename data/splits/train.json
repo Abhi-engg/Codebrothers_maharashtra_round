@@ -1,0 +1,1402 @@
+[
+  {
+    "record_id": "RESP-G09-0056",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.5 kg glides across a frictionless horizontal ice rink at a constant speed of 10 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "0 N (Zero net force)",
+      "working_steps": "According to Newton's First Law of Motion, an object moving with constant velocity has zero acceleration (a = 0). Since F_net = m*a, F_net = 0.5 * 0 = 0 N. No horizontal force is required to sustain motion on a frictionless surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct application of Newton's First Law of Motion."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0057",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.5 kg glides across a frictionless horizontal ice rink at a constant speed of 10 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "5.0 N",
+      "working_steps": "Force is required to keep it moving. F = mass * speed = 0.5 * 10 = 5.0 N in the direction of motion.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0057-VAR",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.5 kg glides across a frictionless horizontal ice rink at a constant speed of 10 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "5.0 N",
+      "working_steps": "Step by step: Force is required to keep it moving. F = mass * speed = 0.5 * 10 = 5.0 N in the direction of motion.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0058",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.5 kg glides across a frictionless horizontal ice rink at a constant speed of 10 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "5 N",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random guess with no reasoning provided."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0059",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 1.0 kg glides across a frictionless horizontal ice rink at a constant speed of 15 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "0 N (Zero net force)",
+      "working_steps": "According to Newton's First Law of Motion, an object moving with constant velocity has zero acceleration (a = 0). Since F_net = m*a, F_net = 1.0 * 0 = 0 N. No horizontal force is required to sustain motion on a frictionless surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct application of Newton's First Law of Motion."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0060",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 1.0 kg glides across a frictionless horizontal ice rink at a constant speed of 15 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "15.0 N",
+      "working_steps": "Force is required to keep it moving. F = mass * speed = 1.0 * 15 = 15.0 N in the direction of motion.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0060-VAR",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 1.0 kg glides across a frictionless horizontal ice rink at a constant speed of 15 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "15.0 N",
+      "working_steps": "Step by step: Force is required to keep it moving. F = mass * speed = 1.0 * 15 = 15.0 N in the direction of motion.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0061",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 1.0 kg glides across a frictionless horizontal ice rink at a constant speed of 15 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "5 N",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random guess with no reasoning provided."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0062",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 2.0 kg glides across a frictionless horizontal ice rink at a constant speed of 5 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "0 N (Zero net force)",
+      "working_steps": "According to Newton's First Law of Motion, an object moving with constant velocity has zero acceleration (a = 0). Since F_net = m*a, F_net = 2.0 * 0 = 0 N. No horizontal force is required to sustain motion on a frictionless surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct application of Newton's First Law of Motion."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0063",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 2.0 kg glides across a frictionless horizontal ice rink at a constant speed of 5 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "10.0 N",
+      "working_steps": "Force is required to keep it moving. F = mass * speed = 2.0 * 5 = 10.0 N in the direction of motion.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0063-VAR",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 2.0 kg glides across a frictionless horizontal ice rink at a constant speed of 5 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "10.0 N",
+      "working_steps": "Step by step: Force is required to keep it moving. F = mass * speed = 2.0 * 5 = 10.0 N in the direction of motion.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0064",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 2.0 kg glides across a frictionless horizontal ice rink at a constant speed of 5 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "5 N",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random guess with no reasoning provided."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0065",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-04",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.2 kg glides across a frictionless horizontal ice rink at a constant speed of 20 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "0 N (Zero net force)",
+      "working_steps": "According to Newton's First Law of Motion, an object moving with constant velocity has zero acceleration (a = 0). Since F_net = m*a, F_net = 0.2 * 0 = 0 N. No horizontal force is required to sustain motion on a frictionless surface.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct application of Newton's First Law of Motion."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0066",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-04",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.2 kg glides across a frictionless horizontal ice rink at a constant speed of 20 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "4.0 N",
+      "working_steps": "Force is required to keep it moving. F = mass * speed = 0.2 * 20 = 4.0 N in the direction of motion.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0066-VAR",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-04",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.2 kg glides across a frictionless horizontal ice rink at a constant speed of 20 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "4.0 N",
+      "working_steps": "Step by step: Force is required to keep it moving. F = mass * speed = 0.2 * 20 = 4.0 N in the direction of motion.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Aristotelian impetus fallacy: student believes continuous force is required to sustain velocity, multiplying mass by speed."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0067",
+    "template_group_id": "GRP-G09-FORCE-01",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09-MOT",
+    "question": {
+      "question_id": "Q-GRP-G09-FORCE-01-04",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A hockey puck of mass 0.2 kg glides across a frictionless horizontal ice rink at a constant speed of 20 m/s. What horizontal force is required to keep it moving at this speed?",
+      "expected_physics_summary": "A hockey puck of mass {mass} kg glides across a frictionless horizontal ice rink at a constant speed of {speed} m/s. What horizontal force is required to keep it moving at this speed?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "5 N",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random guess with no reasoning provided."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0068",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 10.0 kg and a wooden ball of mass 1.0 kg are dropped simultaneously from a height of 20 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Both balls reach the ground at the exact same time.",
+      "working_steps": "In a vacuum, air resistance is zero. The acceleration due to gravity is g = G*M_earth / R^2, which is completely independent of the falling object's mass. Both experience a = 9.8 m/s^2, so t = sqrt(2h/g) is identical for both 10.0 kg and 1.0 kg.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct recognition that gravitational acceleration is mass-independent."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0069",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 10.0 kg and a wooden ball of mass 1.0 kg are dropped simultaneously from a height of 20 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "The 10.0 kg lead ball hits the ground first.",
+      "working_steps": "Gravity pulls heavier objects harder because weight W = m*g. Since 10.0 kg has 10 times more gravitational force than 1.0 kg, it accelerates faster and hits first.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates gravitational force (F = mg) with gravitational acceleration (g = F/m)."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0069-VAR",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 10.0 kg and a wooden ball of mass 1.0 kg are dropped simultaneously from a height of 20 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "The 10.0 kg lead ball hits the ground first.",
+      "working_steps": "Step by step: Gravity pulls heavier objects harder because weight W = m*g. Since 10.0 kg has 10 times more gravitational force than 1.0 kg, it accelerates faster and hits first.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates gravitational force (F = mg) with gravitational acceleration (g = F/m)."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0070",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 5.0 kg and a wooden ball of mass 0.5 kg are dropped simultaneously from a height of 45 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Both balls reach the ground at the exact same time.",
+      "working_steps": "In a vacuum, air resistance is zero. The acceleration due to gravity is g = G*M_earth / R^2, which is completely independent of the falling object's mass. Both experience a = 9.8 m/s^2, so t = sqrt(2h/g) is identical for both 5.0 kg and 0.5 kg.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct recognition that gravitational acceleration is mass-independent."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0071",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 5.0 kg and a wooden ball of mass 0.5 kg are dropped simultaneously from a height of 45 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "The 5.0 kg lead ball hits the ground first.",
+      "working_steps": "Gravity pulls heavier objects harder because weight W = m*g. Since 5.0 kg has 10 times more gravitational force than 0.5 kg, it accelerates faster and hits first.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates gravitational force (F = mg) with gravitational acceleration (g = F/m)."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0071-VAR",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 5.0 kg and a wooden ball of mass 0.5 kg are dropped simultaneously from a height of 45 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "The 5.0 kg lead ball hits the ground first.",
+      "working_steps": "Step by step: Gravity pulls heavier objects harder because weight W = m*g. Since 5.0 kg has 10 times more gravitational force than 0.5 kg, it accelerates faster and hits first.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates gravitational force (F = mg) with gravitational acceleration (g = F/m)."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0072",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 25.0 kg and a wooden ball of mass 2.0 kg are dropped simultaneously from a height of 100 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Both balls reach the ground at the exact same time.",
+      "working_steps": "In a vacuum, air resistance is zero. The acceleration due to gravity is g = G*M_earth / R^2, which is completely independent of the falling object's mass. Both experience a = 9.8 m/s^2, so t = sqrt(2h/g) is identical for both 25.0 kg and 2.0 kg.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct recognition that gravitational acceleration is mass-independent."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0073",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 25.0 kg and a wooden ball of mass 2.0 kg are dropped simultaneously from a height of 100 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "The 25.0 kg lead ball hits the ground first.",
+      "working_steps": "Gravity pulls heavier objects harder because weight W = m*g. Since 25.0 kg has 10 times more gravitational force than 2.0 kg, it accelerates faster and hits first.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates gravitational force (F = mg) with gravitational acceleration (g = F/m)."
+    }
+  },
+  {
+    "record_id": "RESP-G09-0073-VAR",
+    "template_group_id": "GRP-G09-GRAVITY-01",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09-GRV",
+    "question": {
+      "question_id": "Q-GRP-G09-GRAVITY-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A solid lead ball of mass 25.0 kg and a wooden ball of mass 2.0 kg are dropped simultaneously from a height of 100 m inside a vacuum chamber. Which ball reaches the ground first?",
+      "expected_physics_summary": "A solid lead ball of mass {m1} kg and a wooden ball of mass {m2} kg are dropped simultaneously from a height of {height} m inside a vacuum chamber. Which ball reaches the ground first?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "The 25.0 kg lead ball hits the ground first.",
+      "working_steps": "Step by step: Gravity pulls heavier objects harder because weight W = m*g. Since 25.0 kg has 10 times more gravitational force than 2.0 kg, it accelerates faster and hits first.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates gravitational force (F = mg) with gravitational acceleration (g = F/m)."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0074",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 30 degrees with an initial velocity of 40 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "9.8 m/s^2 downwards",
+      "working_steps": "At the apex, the vertical component of velocity is momentarily zero (vy = 0), while horizontal velocity remains vx = 40*cos(30). However, the only force acting throughout the flight is gravity (F_g = mg downwards). Therefore, the acceleration is constant: a = g = 9.8 m/s^2 directed vertically downwards.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly separates instantaneous vertical velocity state from constant gravitational acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0075",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 30 degrees with an initial velocity of 40 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0075-VAR",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 30 degrees with an initial velocity of 40 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "Step by step: At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0076",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 30 degrees with an initial velocity of 40 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "40 m/s^2",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random initial velocity copied into acceleration without steps."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0077",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 45 degrees with an initial velocity of 20 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "9.8 m/s^2 downwards",
+      "working_steps": "At the apex, the vertical component of velocity is momentarily zero (vy = 0), while horizontal velocity remains vx = 20*cos(45). However, the only force acting throughout the flight is gravity (F_g = mg downwards). Therefore, the acceleration is constant: a = g = 9.8 m/s^2 directed vertically downwards.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly separates instantaneous vertical velocity state from constant gravitational acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0078",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 45 degrees with an initial velocity of 20 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0078-VAR",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 45 degrees with an initial velocity of 20 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "Step by step: At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0079",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 45 degrees with an initial velocity of 20 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "20 m/s^2",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random initial velocity copied into acceleration without steps."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0080",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 60 degrees with an initial velocity of 50 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "9.8 m/s^2 downwards",
+      "working_steps": "At the apex, the vertical component of velocity is momentarily zero (vy = 0), while horizontal velocity remains vx = 50*cos(60). However, the only force acting throughout the flight is gravity (F_g = mg downwards). Therefore, the acceleration is constant: a = g = 9.8 m/s^2 directed vertically downwards.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly separates instantaneous vertical velocity state from constant gravitational acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0081",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 60 degrees with an initial velocity of 50 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0081-VAR",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 60 degrees with an initial velocity of 50 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "Step by step: At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0082",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 60 degrees with an initial velocity of 50 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "50 m/s^2",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random initial velocity copied into acceleration without steps."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0083",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 37 degrees with an initial velocity of 25 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "9.8 m/s^2 downwards",
+      "working_steps": "At the apex, the vertical component of velocity is momentarily zero (vy = 0), while horizontal velocity remains vx = 25*cos(37). However, the only force acting throughout the flight is gravity (F_g = mg downwards). Therefore, the acceleration is constant: a = g = 9.8 m/s^2 directed vertically downwards.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly separates instantaneous vertical velocity state from constant gravitational acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0084",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 37 degrees with an initial velocity of 25 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0084-VAR",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 37 degrees with an initial velocity of 25 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "0 m/s^2",
+      "working_steps": "Step by step: At the highest point, the projectile stops rising and comes to a momentary halt vertically. Since velocity is zero at the top, acceleration must be zero (a = 0) because nothing is changing at that instant.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G11-KIN-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Classic kinematic fallacy: equates instantaneous zero velocity with zero acceleration."
+    }
+  },
+  {
+    "record_id": "RESP-G11-0085",
+    "template_group_id": "GRP-G11-PROJECTILE-01",
+    "grade": 11,
+    "chapter": "Mechanics and Dynamics",
+    "concept_id": "G11-KIN",
+    "question": {
+      "question_id": "Q-GRP-G11-PROJECTILE-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "A projectile is launched from ground level at an angle of 37 degrees with an initial velocity of 25 m/s. What is the magnitude of its acceleration at the highest point of its trajectory?",
+      "expected_physics_summary": "A projectile is launched from ground level at an angle of {theta} degrees with an initial velocity of {v0} m/s. What is the magnitude of its acceleration at the highest point of its trajectory?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "25 m/s^2",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Random initial velocity copied into acceleration without steps."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0094",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +5 microcoulombs and -5 microcoulombs separated by 10 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "V = 0 Volts, E is non-zero (directed toward negative charge)",
+      "working_steps": "Potential is a scalar: V_mid = k*(+q)/r + k*(-q)/r = 0 V.\nElectric field is a vector: E_+ points away from +q toward midpoint, E_- points toward -q from midpoint. Both vectors point in the SAME direction! E_total = E_+ + E_- = 2 * (k*q/r^2) != 0.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly distinguishes scalar potential cancellation from vector field reinforcement."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0095",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +5 microcoulombs and -5 microcoulombs separated by 10 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Both V = 0 and E = 0",
+      "working_steps": "Since the potential at the exact center between opposite charges cancels out to zero (V = 0), the electric field must also be zero (E = 0) because there is no voltage to create a field.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates scalar electric potential with vector field gradient (believes V=0 requires E=0)."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0095-VAR",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +5 microcoulombs and -5 microcoulombs separated by 10 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Both V = 0 and E = 0",
+      "working_steps": "Step by step: Since the potential at the exact center between opposite charges cancels out to zero (V = 0), the electric field must also be zero (E = 0) because there is no voltage to create a field.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates scalar electric potential with vector field gradient (believes V=0 requires E=0)."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0096",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +2 microcoulombs and -2 microcoulombs separated by 20 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "V = 0 Volts, E is non-zero (directed toward negative charge)",
+      "working_steps": "Potential is a scalar: V_mid = k*(+q)/r + k*(-q)/r = 0 V.\nElectric field is a vector: E_+ points away from +q toward midpoint, E_- points toward -q from midpoint. Both vectors point in the SAME direction! E_total = E_+ + E_- = 2 * (k*q/r^2) != 0.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly distinguishes scalar potential cancellation from vector field reinforcement."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0097",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +2 microcoulombs and -2 microcoulombs separated by 20 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Both V = 0 and E = 0",
+      "working_steps": "Since the potential at the exact center between opposite charges cancels out to zero (V = 0), the electric field must also be zero (E = 0) because there is no voltage to create a field.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates scalar electric potential with vector field gradient (believes V=0 requires E=0)."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0097-VAR",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +2 microcoulombs and -2 microcoulombs separated by 20 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Both V = 0 and E = 0",
+      "working_steps": "Step by step: Since the potential at the exact center between opposite charges cancels out to zero (V = 0), the electric field must also be zero (E = 0) because there is no voltage to create a field.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates scalar electric potential with vector field gradient (believes V=0 requires E=0)."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0098",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +10 microcoulombs and -10 microcoulombs separated by 5 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "V = 0 Volts, E is non-zero (directed toward negative charge)",
+      "working_steps": "Potential is a scalar: V_mid = k*(+q)/r + k*(-q)/r = 0 V.\nElectric field is a vector: E_+ points away from +q toward midpoint, E_- points toward -q from midpoint. Both vectors point in the SAME direction! E_total = E_+ + E_- = 2 * (k*q/r^2) != 0.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly distinguishes scalar potential cancellation from vector field reinforcement."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0099",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +10 microcoulombs and -10 microcoulombs separated by 5 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Both V = 0 and E = 0",
+      "working_steps": "Since the potential at the exact center between opposite charges cancels out to zero (V = 0), the electric field must also be zero (E = 0) because there is no voltage to create a field.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates scalar electric potential with vector field gradient (believes V=0 requires E=0)."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0099-VAR",
+    "template_group_id": "GRP-G12-DIPOLE-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EST",
+    "question": {
+      "question_id": "Q-GRP-G12-DIPOLE-01-03",
+      "question_type": "conceptual_short_answer",
+      "question_text": "An electric dipole consists of charges +10 microcoulombs and -10 microcoulombs separated by 5 cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?",
+      "expected_physics_summary": "An electric dipole consists of charges +{q_micro} microcoulombs and -{q_micro} microcoulombs separated by {dist} cm. At the exact midpoint between the two charges, what are the electric potential V and the electric field E?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Both V = 0 and E = 0",
+      "working_steps": "Step by step: Since the potential at the exact center between opposite charges cancels out to zero (V = 0), the electric field must also be zero (E = 0) because there is no voltage to create a field.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Conflates scalar electric potential with vector field gradient (believes V=0 requires E=0)."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0100",
+    "template_group_id": "GRP-G12-LENZ-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EMI",
+    "question": {
+      "question_id": "Q-GRP-G12-LENZ-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?",
+      "expected_physics_summary": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Counter-clockwise (produces upward induced B-field)",
+      "working_steps": "By Faraday's Law and Lenz's Law, the induced current opposes the *change* in magnetic flux. Since the upward magnetic field is DECREASING, the system attempts to restore the decreasing flux by producing an UPWARD induced magnetic field. By the right-hand curl rule, an upward B-field requires a counter-clockwise current.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly applies Lenz's law to oppose the flux decrease by reinforcing the field."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0101",
+    "template_group_id": "GRP-G12-LENZ-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EMI",
+    "question": {
+      "question_id": "Q-GRP-G12-LENZ-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?",
+      "expected_physics_summary": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Clockwise (produces downward induced B-field)",
+      "working_steps": "Lenz's law states that induced current always opposes the applied magnetic field. Since the magnetic field is pointing upwards, the induced field must point downwards. Downward magnetic field corresponds to clockwise current.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EMI-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Believes induced current always opposes the direction of the external field itself, rather than opposing the rate of flux change."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0101-VAR",
+    "template_group_id": "GRP-G12-LENZ-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EMI",
+    "question": {
+      "question_id": "Q-GRP-G12-LENZ-01-01",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?",
+      "expected_physics_summary": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Clockwise (produces downward induced B-field)",
+      "working_steps": "Step by step: Lenz's law states that induced current always opposes the applied magnetic field. Since the magnetic field is pointing upwards, the induced field must point downwards. Downward magnetic field corresponds to clockwise current.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EMI-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Believes induced current always opposes the direction of the external field itself, rather than opposing the rate of flux change."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0102",
+    "template_group_id": "GRP-G12-LENZ-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EMI",
+    "question": {
+      "question_id": "Q-GRP-G12-LENZ-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?",
+      "expected_physics_summary": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Counter-clockwise (produces upward induced B-field)",
+      "working_steps": "By Faraday's Law and Lenz's Law, the induced current opposes the *change* in magnetic flux. Since the upward magnetic field is DECREASING, the system attempts to restore the decreasing flux by producing an UPWARD induced magnetic field. By the right-hand curl rule, an upward B-field requires a counter-clockwise current.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correctly applies Lenz's law to oppose the flux decrease by reinforcing the field."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0103",
+    "template_group_id": "GRP-G12-LENZ-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EMI",
+    "question": {
+      "question_id": "Q-GRP-G12-LENZ-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?",
+      "expected_physics_summary": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?"
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Clockwise (produces downward induced B-field)",
+      "working_steps": "Lenz's law states that induced current always opposes the applied magnetic field. Since the magnetic field is pointing upwards, the induced field must point downwards. Downward magnetic field corresponds to clockwise current.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EMI-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Believes induced current always opposes the direction of the external field itself, rather than opposing the rate of flux change."
+    }
+  },
+  {
+    "record_id": "RESP-G12-0103-VAR",
+    "template_group_id": "GRP-G12-LENZ-01",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12-EMI",
+    "question": {
+      "question_id": "Q-GRP-G12-LENZ-01-02",
+      "question_type": "conceptual_short_answer",
+      "question_text": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?",
+      "expected_physics_summary": "A circular conducting copper ring lies flat on a table. A uniform magnetic field pointing vertically upwards through the ring begins to DECREASE in magnitude. What is the direction of the induced current in the ring (viewed from above)?"
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Clockwise (produces downward induced B-field)",
+      "working_steps": "Step by step: Lenz's law states that induced current always opposes the applied magnetic field. Since the magnetic field is pointing upwards, the induced field must point downwards. Downward magnetic field corresponds to clockwise current.",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EMI-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Believes induced current always opposes the direction of the external field itself, rather than opposing the rate of flux change."
+    }
+  }
+]

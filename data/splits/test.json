@@ -1,0 +1,2077 @@
+[
+  {
+    "record_id": "RESP-G10-0001",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-60.0 cm",
+      "working_steps": "Given: u = -20 cm, f = -15 cm\nMirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u\n1/v = 1/(-15) - 1/(-20) = -1/15 + 1/20\n1/v = -0.0167 => v = -60.0 cm (Real, inverted image in front of mirror)",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct Cartesian sign convention applied; accurate mirror formula substitution."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0002",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "+60.0 cm",
+      "working_steps": "u = -20 cm, f = +15 cm\n1/v = 1/f - 1/u = 1/15 - (-1/20) = 1/15 + 1/20\n1/v = 0.1167 => v = +60.0 cm behind mirror",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0002-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "+60.0 cm",
+      "working_steps": "Step by step: u = -20 cm, f = +15 cm\n1/v = 1/f - 1/u = 1/15 - (-1/20) = 1/15 + 1/20\n1/v = 0.1167 --> v = +60.0 cm behind mirror",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0003",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-8.57 cm",
+      "working_steps": "Using formula: 1/v - 1/u = 1/f => 1/v = 1/f + 1/u\n1/v = 1/(-15) + 1/(-20) = -1/15 - 1/20\n1/v = -0.1167 => v = -8.57 cm",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0003-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-8.57 cm",
+      "working_steps": "Step by step: Using formula: 1/v - 1/u = 1/f --> 1/v = 1/f + 1/u\n1/v = 1/(-15) + 1/(-20) = -1/15 - 1/20\n1/v = -0.1167 --> v = -8.57 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0004",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-51.0 cm",
+      "working_steps": "u = -20 cm, f = -15 cm\n1/v = 1/(-15) - 1/(-20) = -1/15 + 1/20\nMade a common denominator calculation error: 1/v = -0.019 => v = -51.0 cm",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0004-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-51.0 cm",
+      "working_steps": "Step by step: u = -20 cm, f = -15 cm\n1/v = 1/(-15) - 1/(-20) = -1/15 + 1/20\nMade a common denominator calculation error: 1/v = -0.019 --> v = -51.0 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0005",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 20 cm in front of a concave mirror of focal length 15 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-50.0 cm",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Bare answer provided without mathematical working or reasoning; system must abstain."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0006",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-60.0 cm",
+      "working_steps": "Given: u = -30 cm, f = -20 cm\nMirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u\n1/v = 1/(-20) - 1/(-30) = -1/20 + 1/30\n1/v = -0.0167 => v = -60.0 cm (Real, inverted image in front of mirror)",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct Cartesian sign convention applied; accurate mirror formula substitution."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0007",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "+60.0 cm",
+      "working_steps": "u = -30 cm, f = +20 cm\n1/v = 1/f - 1/u = 1/20 - (-1/30) = 1/20 + 1/30\n1/v = 0.0833 => v = +60.0 cm behind mirror",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0007-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "+60.0 cm",
+      "working_steps": "Step by step: u = -30 cm, f = +20 cm\n1/v = 1/f - 1/u = 1/20 - (-1/30) = 1/20 + 1/30\n1/v = 0.0833 --> v = +60.0 cm behind mirror",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0008",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-12.0 cm",
+      "working_steps": "Using formula: 1/v - 1/u = 1/f => 1/v = 1/f + 1/u\n1/v = 1/(-20) + 1/(-30) = -1/20 - 1/30\n1/v = -0.0833 => v = -12.0 cm",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0008-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-12.0 cm",
+      "working_steps": "Step by step: Using formula: 1/v - 1/u = 1/f --> 1/v = 1/f + 1/u\n1/v = 1/(-20) + 1/(-30) = -1/20 - 1/30\n1/v = -0.0833 --> v = -12.0 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0009",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-51.0 cm",
+      "working_steps": "u = -30 cm, f = -20 cm\n1/v = 1/(-20) - 1/(-30) = -1/20 + 1/30\nMade a common denominator calculation error: 1/v = -0.019 => v = -51.0 cm",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0009-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-51.0 cm",
+      "working_steps": "Step by step: u = -30 cm, f = -20 cm\n1/v = 1/(-20) - 1/(-30) = -1/20 + 1/30\nMade a common denominator calculation error: 1/v = -0.019 --> v = -51.0 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0010",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 30 cm in front of a concave mirror of focal length 20 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-50.0 cm",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Bare answer provided without mathematical working or reasoning; system must abstain."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0011",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-48.0 cm",
+      "working_steps": "Given: u = -24 cm, f = -16 cm\nMirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u\n1/v = 1/(-16) - 1/(-24) = -1/16 + 1/24\n1/v = -0.0208 => v = -48.0 cm (Real, inverted image in front of mirror)",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct Cartesian sign convention applied; accurate mirror formula substitution."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0012",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "+48.0 cm",
+      "working_steps": "u = -24 cm, f = +16 cm\n1/v = 1/f - 1/u = 1/16 - (-1/24) = 1/16 + 1/24\n1/v = 0.1042 => v = +48.0 cm behind mirror",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0012-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "+48.0 cm",
+      "working_steps": "Step by step: u = -24 cm, f = +16 cm\n1/v = 1/f - 1/u = 1/16 - (-1/24) = 1/16 + 1/24\n1/v = 0.1042 --> v = +48.0 cm behind mirror",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0013",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-9.6 cm",
+      "working_steps": "Using formula: 1/v - 1/u = 1/f => 1/v = 1/f + 1/u\n1/v = 1/(-16) + 1/(-24) = -1/16 - 1/24\n1/v = -0.1042 => v = -9.6 cm",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0013-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-9.6 cm",
+      "working_steps": "Step by step: Using formula: 1/v - 1/u = 1/f --> 1/v = 1/f + 1/u\n1/v = 1/(-16) + 1/(-24) = -1/16 - 1/24\n1/v = -0.1042 --> v = -9.6 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0014",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-40.8 cm",
+      "working_steps": "u = -24 cm, f = -16 cm\n1/v = 1/(-16) - 1/(-24) = -1/16 + 1/24\nMade a common denominator calculation error: 1/v = -0.019 => v = -40.8 cm",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0014-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-40.8 cm",
+      "working_steps": "Step by step: u = -24 cm, f = -16 cm\n1/v = 1/(-16) - 1/(-24) = -1/16 + 1/24\nMade a common denominator calculation error: 1/v = -0.019 --> v = -40.8 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0015",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 24 cm in front of a concave mirror of focal length 16 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-38.0 cm",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Bare answer provided without mathematical working or reasoning; system must abstain."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0016",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-13.33 cm",
+      "working_steps": "Given: u = -40 cm, f = -10 cm\nMirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u\n1/v = 1/(-10) - 1/(-40) = -1/10 + 1/40\n1/v = -0.075 => v = -13.33 cm (Real, inverted image in front of mirror)",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct Cartesian sign convention applied; accurate mirror formula substitution."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0017",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "+13.33 cm",
+      "working_steps": "u = -40 cm, f = +10 cm\n1/v = 1/f - 1/u = 1/10 - (-1/40) = 1/10 + 1/40\n1/v = 0.125 => v = +13.33 cm behind mirror",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0017-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "+13.33 cm",
+      "working_steps": "Step by step: u = -40 cm, f = +10 cm\n1/v = 1/f - 1/u = 1/10 - (-1/40) = 1/10 + 1/40\n1/v = 0.125 --> v = +13.33 cm behind mirror",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0018",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-8.0 cm",
+      "working_steps": "Using formula: 1/v - 1/u = 1/f => 1/v = 1/f + 1/u\n1/v = 1/(-10) + 1/(-40) = -1/10 - 1/40\n1/v = -0.125 => v = -8.0 cm",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0018-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-8.0 cm",
+      "working_steps": "Step by step: Using formula: 1/v - 1/u = 1/f --> 1/v = 1/f + 1/u\n1/v = 1/(-10) + 1/(-40) = -1/10 - 1/40\n1/v = -0.125 --> v = -8.0 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0019",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-11.33 cm",
+      "working_steps": "u = -40 cm, f = -10 cm\n1/v = 1/(-10) - 1/(-40) = -1/10 + 1/40\nMade a common denominator calculation error: 1/v = -0.019 => v = -11.33 cm",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0019-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-11.33 cm",
+      "working_steps": "Step by step: u = -40 cm, f = -10 cm\n1/v = 1/(-10) - 1/(-40) = -1/10 + 1/40\nMade a common denominator calculation error: 1/v = -0.019 --> v = -11.33 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0020",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 40 cm in front of a concave mirror of focal length 10 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-3.33 cm",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Bare answer provided without mathematical working or reasoning; system must abstain."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0021",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-24.0 cm",
+      "working_steps": "Given: u = -12 cm, f = -8 cm\nMirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u\n1/v = 1/(-8) - 1/(-12) = -1/8 + 1/12\n1/v = -0.0417 => v = -24.0 cm (Real, inverted image in front of mirror)",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct Cartesian sign convention applied; accurate mirror formula substitution."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0022",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "+24.0 cm",
+      "working_steps": "u = -12 cm, f = +8 cm\n1/v = 1/f - 1/u = 1/8 - (-1/12) = 1/8 + 1/12\n1/v = 0.2083 => v = +24.0 cm behind mirror",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0022-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "+24.0 cm",
+      "working_steps": "Step by step: u = -12 cm, f = +8 cm\n1/v = 1/f - 1/u = 1/8 - (-1/12) = 1/8 + 1/12\n1/v = 0.2083 --> v = +24.0 cm behind mirror",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0023",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-4.8 cm",
+      "working_steps": "Using formula: 1/v - 1/u = 1/f => 1/v = 1/f + 1/u\n1/v = 1/(-8) + 1/(-12) = -1/8 - 1/12\n1/v = -0.2083 => v = -4.8 cm",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0023-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-4.8 cm",
+      "working_steps": "Step by step: Using formula: 1/v - 1/u = 1/f --> 1/v = 1/f + 1/u\n1/v = 1/(-8) + 1/(-12) = -1/8 - 1/12\n1/v = -0.2083 --> v = -4.8 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0024",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-20.4 cm",
+      "working_steps": "u = -12 cm, f = -8 cm\n1/v = 1/(-8) - 1/(-12) = -1/8 + 1/12\nMade a common denominator calculation error: 1/v = -0.019 => v = -20.4 cm",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0024-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-20.4 cm",
+      "working_steps": "Step by step: u = -12 cm, f = -8 cm\n1/v = 1/(-8) - 1/(-12) = -1/8 + 1/12\nMade a common denominator calculation error: 1/v = -0.019 --> v = -20.4 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0025",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 12 cm in front of a concave mirror of focal length 8 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-14.0 cm",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Bare answer provided without mathematical working or reasoning; system must abstain."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0026",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-50.0 cm",
+      "working_steps": "Given: u = -50 cm, f = -25 cm\nMirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u\n1/v = 1/(-25) - 1/(-50) = -1/25 + 1/50\n1/v = -0.02 => v = -50.0 cm (Real, inverted image in front of mirror)",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Correct Cartesian sign convention applied; accurate mirror formula substitution."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0027",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "+50.0 cm",
+      "working_steps": "u = -50 cm, f = +25 cm\n1/v = 1/f - 1/u = 1/25 - (-1/50) = 1/25 + 1/50\n1/v = 0.06 => v = +50.0 cm behind mirror",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0027-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "+50.0 cm",
+      "working_steps": "Step by step: u = -50 cm, f = +25 cm\n1/v = 1/f - 1/u = 1/25 - (-1/50) = 1/25 + 1/50\n1/v = 0.06 --> v = +50.0 cm behind mirror",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-01",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student treated concave mirror focal length as positive (+15cm), violating Cartesian sign convention."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0028",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-16.67 cm",
+      "working_steps": "Using formula: 1/v - 1/u = 1/f => 1/v = 1/f + 1/u\n1/v = 1/(-25) + 1/(-50) = -1/25 - 1/50\n1/v = -0.06 => v = -16.67 cm",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0028-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-16.67 cm",
+      "working_steps": "Step by step: Using formula: 1/v - 1/u = 1/f --> 1/v = 1/f + 1/u\n1/v = 1/(-25) + 1/(-50) = -1/25 - 1/50\n1/v = -0.06 --> v = -16.67 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-OPT-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Applied the lens formula (1/v - 1/u = 1/f) instead of the mirror formula (1/v + 1/u = 1/f)."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0029",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-42.5 cm",
+      "working_steps": "u = -50 cm, f = -25 cm\n1/v = 1/(-25) - 1/(-50) = -1/25 + 1/50\nMade a common denominator calculation error: 1/v = -0.019 => v = -42.5 cm",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0029-VAR",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "-42.5 cm",
+      "working_steps": "Step by step: u = -50 cm, f = -25 cm\n1/v = 1/(-25) - 1/(-50) = -1/25 + 1/50\nMade a common denominator calculation error: 1/v = -0.019 --> v = -42.5 cm",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_ARITHMETIC",
+      "primary_label": "SLIP-ARITHMETIC",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics setup and signs are physically correct, but intermediate fraction addition was calculated incorrectly."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0030",
+    "template_group_id": "GRP-G10-MIRROR-01",
+    "grade": 10,
+    "chapter": "Light: Reflection and Refraction",
+    "concept_id": "G10-OPT",
+    "question": {
+      "question_id": "Q-GRP-G10-MIRROR-01-06",
+      "question_type": "numerical_with_steps",
+      "question_text": "An object is placed at a distance of 50 cm in front of a concave mirror of focal length 25 cm. Find the position of the image formed (v).",
+      "expected_physics_summary": "An object is placed at a distance of {u_abs} cm in front of a concave mirror of focal length {f_abs} cm. Find the position of the image formed (v)."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "-40.0 cm",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Bare answer provided without mathematical working or reasoning; system must abstain."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0031",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 4.0 ohms, I = 3.0 A",
+      "working_steps": "Parallel combination: 1/Rp = 1/6 + 1/12 = (12 + 6)/(72)\n1/Rp = 0.25 => Rp = 4.0 ohms\nTotal current: I = V/Rp = 12/4.0 = 3.0 A",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate reciprocal addition and Ohm's law calculation."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0032",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.25 ohms, I = 48.0 A",
+      "working_steps": "1/Rp = 1/R1 + 1/R2 = 1/6 + 1/12 = 0.25\nTherefore equivalent resistance Rp = 0.25 ohms\nI = V/Rp = 12/0.25 = 48.0 A",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0032-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.25 ohms, I = 48.0 A",
+      "working_steps": "Step by step: 1/Rp = 1/R1 + 1/R2 = 1/6 + 1/12 = 0.25\nTherefore equivalent resistance Rp = 0.25 ohms\nI = V/Rp = 12/0.25 = 48.0 A",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0033",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 18 ohms",
+      "working_steps": "Rp = R1 + R2 = 6 + 12 = 18 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0033-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 18 ohms",
+      "working_steps": "Step by step: Rp = R1 + R2 = 6 + 12 = 18 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0034",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 4.0 ohms, I = 3000.0 mA",
+      "working_steps": "Rp = 4.0 ohms. I = V/Rp = 12/4.0 = 3.0 A. Student mistakenly wrote 3.0 mA or divided by 1000",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_UNIT",
+      "primary_label": "SLIP-UNIT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics understanding correct, but unit conversion error between Amperes and milliamperes."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0035",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-01",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 6 ohms and R2 = 12 ohms are connected in parallel across a 12 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 8.0 ohms",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Number provided without any mathematical justification."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0036",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 6.0 ohms, I = 5.0 A",
+      "working_steps": "Parallel combination: 1/Rp = 1/10 + 1/15 = (15 + 10)/(150)\n1/Rp = 0.1667 => Rp = 6.0 ohms\nTotal current: I = V/Rp = 30/6.0 = 5.0 A",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate reciprocal addition and Ohm's law calculation."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0037",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.167 ohms, I = 180.0 A",
+      "working_steps": "1/Rp = 1/R1 + 1/R2 = 1/10 + 1/15 = 0.167\nTherefore equivalent resistance Rp = 0.167 ohms\nI = V/Rp = 30/0.167 = 180.0 A",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0037-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.167 ohms, I = 180.0 A",
+      "working_steps": "Step by step: 1/Rp = 1/R1 + 1/R2 = 1/10 + 1/15 = 0.167\nTherefore equivalent resistance Rp = 0.167 ohms\nI = V/Rp = 30/0.167 = 180.0 A",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0038",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 25 ohms",
+      "working_steps": "Rp = R1 + R2 = 10 + 15 = 25 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0038-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 25 ohms",
+      "working_steps": "Step by step: Rp = R1 + R2 = 10 + 15 = 25 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0039",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 6.0 ohms, I = 5000.0 mA",
+      "working_steps": "Rp = 6.0 ohms. I = V/Rp = 30/6.0 = 5.0 A. Student mistakenly wrote 5.0 mA or divided by 1000",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_UNIT",
+      "primary_label": "SLIP-UNIT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics understanding correct, but unit conversion error between Amperes and milliamperes."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0040",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-02",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 10 ohms and R2 = 15 ohms are connected in parallel across a 30 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 12.0 ohms",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Number provided without any mathematical justification."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0041",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 2.0 ohms, I = 4.0 A",
+      "working_steps": "Parallel combination: 1/Rp = 1/4 + 1/4 = (4 + 4)/(16)\n1/Rp = 0.5 => Rp = 2.0 ohms\nTotal current: I = V/Rp = 8/2.0 = 4.0 A",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate reciprocal addition and Ohm's law calculation."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0042",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.5 ohms, I = 16.0 A",
+      "working_steps": "1/Rp = 1/R1 + 1/R2 = 1/4 + 1/4 = 0.5\nTherefore equivalent resistance Rp = 0.5 ohms\nI = V/Rp = 8/0.5 = 16.0 A",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0042-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.5 ohms, I = 16.0 A",
+      "working_steps": "Step by step: 1/Rp = 1/R1 + 1/R2 = 1/4 + 1/4 = 0.5\nTherefore equivalent resistance Rp = 0.5 ohms\nI = V/Rp = 8/0.5 = 16.0 A",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0043",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 8 ohms",
+      "working_steps": "Rp = R1 + R2 = 4 + 4 = 8 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0043-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 8 ohms",
+      "working_steps": "Step by step: Rp = R1 + R2 = 4 + 4 = 8 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0044",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 2.0 ohms, I = 4000.0 mA",
+      "working_steps": "Rp = 2.0 ohms. I = V/Rp = 8/2.0 = 4.0 A. Student mistakenly wrote 4.0 mA or divided by 1000",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_UNIT",
+      "primary_label": "SLIP-UNIT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics understanding correct, but unit conversion error between Amperes and milliamperes."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0045",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-03",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 4 ohms and R2 = 4 ohms are connected in parallel across a 8 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 4.0 ohms",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Number provided without any mathematical justification."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0046",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 12.0 ohms, I = 5.0 A",
+      "working_steps": "Parallel combination: 1/Rp = 1/20 + 1/30 = (30 + 20)/(600)\n1/Rp = 0.0833 => Rp = 12.0 ohms\nTotal current: I = V/Rp = 60/12.0 = 5.0 A",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate reciprocal addition and Ohm's law calculation."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0047",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.083 ohms, I = 720.0 A",
+      "working_steps": "1/Rp = 1/R1 + 1/R2 = 1/20 + 1/30 = 0.083\nTherefore equivalent resistance Rp = 0.083 ohms\nI = V/Rp = 60/0.083 = 720.0 A",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0047-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.083 ohms, I = 720.0 A",
+      "working_steps": "Step by step: 1/Rp = 1/R1 + 1/R2 = 1/20 + 1/30 = 0.083\nTherefore equivalent resistance Rp = 0.083 ohms\nI = V/Rp = 60/0.083 = 720.0 A",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0048",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 50 ohms",
+      "working_steps": "Rp = R1 + R2 = 20 + 30 = 50 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0048-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 50 ohms",
+      "working_steps": "Step by step: Rp = R1 + R2 = 20 + 30 = 50 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0049",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 12.0 ohms, I = 5000.0 mA",
+      "working_steps": "Rp = 12.0 ohms. I = V/Rp = 60/12.0 = 5.0 A. Student mistakenly wrote 5.0 mA or divided by 1000",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_UNIT",
+      "primary_label": "SLIP-UNIT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics understanding correct, but unit conversion error between Amperes and milliamperes."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0050",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-04",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 20 ohms and R2 = 30 ohms are connected in parallel across a 60 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 24.0 ohms",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Number provided without any mathematical justification."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0051",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 6.0 ohms, I = 4.0 A",
+      "working_steps": "Parallel combination: 1/Rp = 1/8 + 1/24 = (24 + 8)/(192)\n1/Rp = 0.1667 => Rp = 6.0 ohms\nTotal current: I = V/Rp = 24/6.0 = 4.0 A",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CORRECT",
+      "primary_label": "CORRECT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Accurate reciprocal addition and Ohm's law calculation."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0052",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.167 ohms, I = 144.0 A",
+      "working_steps": "1/Rp = 1/R1 + 1/R2 = 1/8 + 1/24 = 0.167\nTherefore equivalent resistance Rp = 0.167 ohms\nI = V/Rp = 24/0.167 = 144.0 A",
+      "extracted_ocr_confidence": 0.95
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0052-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 0.167 ohms, I = 144.0 A",
+      "working_steps": "Step by step: 1/Rp = 1/R1 + 1/R2 = 1/8 + 1/24 = 0.167\nTherefore equivalent resistance Rp = 0.167 ohms\nI = V/Rp = 24/0.167 = 144.0 A",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-03",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Student evaluated 1/Rp sum correctly but forgot to invert to find Rp, resulting in decimal resistance."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0053",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 32 ohms",
+      "working_steps": "Rp = R1 + R2 = 8 + 24 = 32 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0053-VAR",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "ocr_handwritten",
+      "final_answer": "Rp = 32 ohms",
+      "working_steps": "Step by step: Rp = R1 + R2 = 8 + 24 = 32 ohms\nI = V / (R1+R2)",
+      "extracted_ocr_confidence": 0.91
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G10-ELE-02",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Treated parallel circuit as series combination, directly summing individual branch resistances."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0054",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 6.0 ohms, I = 4000.0 mA",
+      "working_steps": "Rp = 6.0 ohms. I = V/Rp = 24/6.0 = 4.0 A. Student mistakenly wrote 4.0 mA or divided by 1000",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "SLIP_UNIT",
+      "primary_label": "SLIP-UNIT",
+      "confidence": 1.0,
+      "diagnostic_rationale": "Physics understanding correct, but unit conversion error between Amperes and milliamperes."
+    }
+  },
+  {
+    "record_id": "RESP-G10-0055",
+    "template_group_id": "GRP-G10-CIRCUITS-01",
+    "grade": 10,
+    "chapter": "Electricity and Circuits",
+    "concept_id": "G10-ELE",
+    "question": {
+      "question_id": "Q-GRP-G10-CIRCUITS-01-05",
+      "question_type": "numerical_with_steps",
+      "question_text": "Two resistors R1 = 8 ohms and R2 = 24 ohms are connected in parallel across a 24 V battery. Find the equivalent resistance and total current.",
+      "expected_physics_summary": "Two resistors R1 = {r1} ohms and R2 = {r2} ohms are connected in parallel across a {v_volt} V battery. Find the equivalent resistance and total current."
+    },
+    "student_submission": {
+      "input_mode": "typed_text",
+      "final_answer": "Rp = 12.0 ohms",
+      "working_steps": null,
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+      "primary_label": "UNCERTAIN-GUESS",
+      "confidence": 0.35,
+      "diagnostic_rationale": "Number provided without any mathematical justification."
+    }
+  }
+]
