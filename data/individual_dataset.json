@@ -4007,5 +4007,1045 @@
       "diagnostic_rationale": "CSEM Benchmark: Conflates scalar zero potential (V = 0) with vector zero field (E = 0), neglecting the spatial gradient E = -dV/dx.",
       "data_origin": "REAL_WORLD_PER_BENCHMARK"
     }
+  },
+  {
+    "record_id": "REAL-SQA-25",
+    "template_group_id": "GRP-REAL-SQA-25",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-25",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The strength of the magnetic force is the same in both pairs.",
+      "working_steps": "Selected distractor option: 'The strength of the magnetic force is the same in both pairs.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-41",
+    "template_group_id": "GRP-REAL-SQA-41",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-41",
+      "question_type": "mcq",
+      "question_text": "Which figure of speech is used in this text?\nHunter remarked that the new book on anti-gravity was impossible to put down. Options: alliteration, pun",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "alliteration",
+      "working_steps": "Selected distractor option: 'alliteration' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-61",
+    "template_group_id": "GRP-REAL-SQA-61",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-61",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2.",
+      "expected_physics_summary": "Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force between them.\nMagnet A is the same size in both pairs. But Magnet B is smaller in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is the same in both pairs.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is the same in both pairs.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-86",
+    "template_group_id": "GRP-REAL-SQA-86",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-86",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnetic force is stronger in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnetic force is stronger in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-99",
+    "template_group_id": "GRP-REAL-SQA-99",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-99",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nDistance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-115",
+    "template_group_id": "GRP-REAL-SQA-115",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-115",
+      "question_type": "mcq",
+      "question_text": "Assume all other forces on Tamir are balanced. Which statement describes the forces on Tamir? Options: The forces are balanced, so there is no net force on Tamir., The forces are unbalanced, so there is a net force on Tamir.",
+      "expected_physics_summary": "To determine if there is a net force on Tamir, look at the forces:\nEarth's gravity is pulling Tamir down with a force of 400 N.\nThe diving board is pushing Tamir up with a force of 400 N.\nThe forces are in opposite directions, and the forces have the same magnitude: 400 N. This means that the forces are balanced, so there is no net force on Tamir."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The forces are unbalanced, so there is a net force on Tamir.",
+      "working_steps": "Selected distractor option: 'The forces are unbalanced, so there is a net force on Tamir.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: To determine if there is a net force on Tamir, look at the forces:\nEarth's gravity is pulling Tamir down with a force of 400 N.\nThe diving board is pushing Tamir up with a force of 400 N.\nThe forces a",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-127",
+    "template_group_id": "GRP-REAL-SQA-127",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-127",
+      "question_type": "mcq",
+      "question_text": "The shopper lifts each bag at the same speed. Which bag is lifted with a larger force? Options: a bag holding 4 pounds of food, a bag holding 5 pounds of food",
+      "expected_physics_summary": "Look for the shopping bag that is heavier.\nA shopping bag holding 5 pounds of food is heavier than a shopping bag holding 4 pounds of food. So, the bag holding 5 pounds needs a larger force to start moving upward at the same speed as the other bag."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "a bag holding 4 pounds of food",
+      "working_steps": "Selected distractor option: 'a bag holding 4 pounds of food' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Look for the shopping bag that is heavier.\nA shopping bag holding 5 pounds of food is heavier than a shopping bag holding 4 pounds of food. So, the bag holding 5 pounds needs a larger force to start m",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-132",
+    "template_group_id": "GRP-REAL-SQA-132",
+    "grade": 12,
+    "chapter": "Electrostatics and Electromagnetism",
+    "concept_id": "G12",
+    "question": {
+      "question_id": "SQA-132",
+      "question_type": "mcq",
+      "question_text": "Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Michelle rode down the hill. Options: stayed the same, decreased, increased",
+      "expected_physics_summary": "Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Michelle started sledding. As Michelle rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Michelle rode down the hill."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "stayed the same",
+      "working_steps": "Selected distractor option: 'stayed the same' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G12-EST-01",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Michelle started sledding. As Michelle rode toward the bottom of th",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-188",
+    "template_group_id": "GRP-REAL-SQA-188",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-188",
+      "question_type": "mcq",
+      "question_text": "According to Newton's third law, what other force must be happening? Options: The wheelchair is pushing on Darnel., The wheelchair is pulling on Darnel.",
+      "expected_physics_summary": "Darnel is pushing on the wheelchair. So, Newton's third law tells you that the wheelchair is pushing on Darnel."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The wheelchair is pulling on Darnel.",
+      "working_steps": "Selected distractor option: 'The wheelchair is pulling on Darnel.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Darnel is pushing on the wheelchair. So, Newton's third law tells you that the wheelchair is pushing on Darnel.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-195",
+    "template_group_id": "GRP-REAL-SQA-195",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-195",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnetic force is stronger in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnetic force is stronger in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-200",
+    "template_group_id": "GRP-REAL-SQA-200",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-200",
+      "question_type": "mcq",
+      "question_text": "Ken starts to pull the wagon across the yard. To move the wagon at the same speed each time, which friend does Ken need to pull with a larger force? Options: a friend who weighs 32 pounds, a friend who weighs 25 pounds",
+      "expected_physics_summary": "Look for the friend who is heavier.\nA friend who weighs 32 pounds is heavier than a friend who weighs 25 pounds. So, to move the wagon at the same speed each time, Ken needs to use a larger force to start moving the wagon with a friend who weighs 32 pounds."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "a friend who weighs 25 pounds",
+      "working_steps": "Selected distractor option: 'a friend who weighs 25 pounds' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Look for the friend who is heavier.\nA friend who weighs 32 pounds is heavier than a friend who weighs 25 pounds. So, to move the wagon at the same speed each time, Ken needs to use a larger force to s",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-201",
+    "template_group_id": "GRP-REAL-SQA-201",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-201",
+      "question_type": "mcq",
+      "question_text": "Which type of force from the girl opens the window? Options: pull, push",
+      "expected_physics_summary": "The girl applies a force to the window panes. This force opens the window. The direction of this force is away from the girl. This force is a push."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "pull",
+      "working_steps": "Selected distractor option: 'pull' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The girl applies a force to the window panes. This force opens the window. The direction of this force is away from the girl. This force is a push.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-238",
+    "template_group_id": "GRP-REAL-SQA-238",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-238",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2.",
+      "expected_physics_summary": "Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force between them.\nMagnet A is the same size in both pairs. But Magnet B is smaller in Pair 1 than in Pair 2. So, the magnitude of the magnetic force is smaller in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is the same in both pairs.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is the same in both pairs.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-244",
+    "template_group_id": "GRP-REAL-SQA-244",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-244",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2.",
+      "expected_physics_summary": "Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The larger the magnets, the greater the magnitude of the magnetic force between them.\nMagnet A is the same size in both pairs. But Magnet B is larger in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is greater in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is greater in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is greater in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The larger the magnets, the greater the magnitude of the magnetic force ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-270",
+    "template_group_id": "GRP-REAL-SQA-270",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-270",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nDistance affects the magnitude of the magnetic force. When there is a smaller distance between magnets, the magnitude of the magnetic force between them is greater.\nThere is a smaller distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is greater in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is greater in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is greater in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-295",
+    "template_group_id": "GRP-REAL-SQA-295",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-295",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force between them.\nMagnet A is the same size in both pairs. But Magnet B is smaller in Pair 1 than in Pair 2. So, the magnitude of the magnetic force is smaller in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Magnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-300",
+    "template_group_id": "GRP-REAL-SQA-300",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-300",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2.",
+      "expected_physics_summary": "Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 1 than in Pair 2. So, the magnitude of the magnetic force is smaller in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is the same in both pairs.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is the same in both pairs.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-304",
+    "template_group_id": "GRP-REAL-SQA-304",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-304",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2.",
+      "expected_physics_summary": "The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nBoth magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same.\nSo, the magnitude of the magnetic force is the same in both pairs."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is greater in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is greater in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-394",
+    "template_group_id": "GRP-REAL-SQA-394",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-394",
+      "question_type": "mcq",
+      "question_text": "What is the direction of this push? Options: toward his finger, away from his finger",
+      "expected_physics_summary": "The child pushes the button. The direction of the push is away from his finger."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "toward his finger",
+      "working_steps": "Selected distractor option: 'toward his finger' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The child pushes the button. The direction of the push is away from his finger.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-426",
+    "template_group_id": "GRP-REAL-SQA-426",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-426",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnetic force is stronger in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnetic force is stronger in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-427",
+    "template_group_id": "GRP-REAL-SQA-427",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-427",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 2 are closer together than the magnets in Pair 1. So, the magnetic force is stronger in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnetic force is stronger in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnetic force is stronger in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 2 are closer together than the magnets in Pair 1",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-436",
+    "template_group_id": "GRP-REAL-SQA-436",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-436",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2.",
+      "expected_physics_summary": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nMagnet sizes affect the magnitude of the magnetic force. Imagine magnets that are the same shape and made of the same material. The smaller the magnets, the smaller the magnitude of the magnetic force between them.\nMagnet A is the same size in both pairs. But Magnet B is smaller in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is the same in both pairs.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is the same in both pairs.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-459",
+    "template_group_id": "GRP-REAL-SQA-459",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-459",
+      "question_type": "mcq",
+      "question_text": "According to Newton's third law, what other force must be happening? Options: The Moon is pushing on Earth., The Moon is pulling on Earth.",
+      "expected_physics_summary": "Earth is pulling on the Moon. So, Newton's third law tells you that the Moon is pulling on Earth."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The Moon is pushing on Earth.",
+      "working_steps": "Selected distractor option: 'The Moon is pushing on Earth.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Earth is pulling on the Moon. So, Newton's third law tells you that the Moon is pulling on Earth.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-460",
+    "template_group_id": "GRP-REAL-SQA-460",
+    "grade": 9,
+    "chapter": "Gravitation & Free Fall",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-460",
+      "question_type": "mcq",
+      "question_text": "Which figure of speech is used in this text?\nDerek remarked that the new book on anti-gravity was impossible to put down. Options: pun, allusion",
+      "expected_physics_summary": "The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "allusion",
+      "working_steps": "Selected distractor option: 'allusion' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-GRV-01",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to pu",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-463",
+    "template_group_id": "GRP-REAL-SQA-463",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-463",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2.",
+      "expected_physics_summary": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nDistance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-498",
+    "template_group_id": "GRP-REAL-SQA-498",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-498",
+      "question_type": "mcq",
+      "question_text": "Each bus takes the same amount of time to stop. Which school bus needs a larger force to come to a stop? Options: a school bus carrying 700 pounds, a school bus carrying 500 pounds",
+      "expected_physics_summary": "Look for the school bus that is heavier.\nA school bus carrying 700 pounds is heavier than a school bus carrying 500 pounds. So, the school bus carrying 700 pounds needs a larger force to come to a stop in the same amount of time as the other bus."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "a school bus carrying 500 pounds",
+      "working_steps": "Selected distractor option: 'a school bus carrying 500 pounds' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Look for the school bus that is heavier.\nA school bus carrying 700 pounds is heavier than a school bus carrying 500 pounds. So, the school bus carrying 700 pounds needs a larger force to come to a sto",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-503",
+    "template_group_id": "GRP-REAL-SQA-503",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-503",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1.",
+      "expected_physics_summary": "The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nDistance affects the magnitude of the magnetic force. When there is a smaller distance between magnets, the magnitude of the magnetic force between them is greater.\nThere is a smaller distance between the magnets in Pair 1 than in Pair 2. So, the magnitude of the magnetic force is greater in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is greater in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is greater in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-504",
+    "template_group_id": "GRP-REAL-SQA-504",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-504",
+      "question_type": "mcq",
+      "question_text": "According to Newton's third law, what other force must be happening? Options: The hockey puck is pulling on the hockey stick., The hockey puck is pushing on the hockey stick.",
+      "expected_physics_summary": "The hockey stick is pushing on the hockey puck. So, Newton's third law tells you that the hockey puck is pushing on the hockey stick."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The hockey puck is pulling on the hockey stick.",
+      "working_steps": "Selected distractor option: 'The hockey puck is pulling on the hockey stick.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The hockey stick is pushing on the hockey puck. So, Newton's third law tells you that the hockey puck is pushing on the hockey stick.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-522",
+    "template_group_id": "GRP-REAL-SQA-522",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-522",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nBoth magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same.\nSo, the magnitude of the magnetic force is the same in both pairs."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-527",
+    "template_group_id": "GRP-REAL-SQA-527",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-527",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nBoth magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same.\nSo, the magnitude of the magnetic force is the same in both pairs."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-540",
+    "template_group_id": "GRP-REAL-SQA-540",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-540",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The strength of the magnetic force is the same in both pairs.",
+      "working_steps": "Selected distractor option: 'The strength of the magnetic force is the same in both pairs.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-557",
+    "template_group_id": "GRP-REAL-SQA-557",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-557",
+      "question_type": "mcq",
+      "question_text": "Assume all other forces on Ken are balanced. Which statement describes the forces on Ken? Options: The forces are unbalanced, so there is a net force on Ken., The forces are balanced, so there is no net force on Ken.",
+      "expected_physics_summary": "To determine if there is a net force on Ken, look at the forces:\nEarth's gravity is pulling Ken down with a force of 400 N.\nThe diving board is pushing Ken up with a force of 400 N.\nThe forces are in opposite directions, and the forces have the same magnitude: 400 N. This means that the forces are balanced, so there is no net force on Ken."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The forces are unbalanced, so there is a net force on Ken.",
+      "working_steps": "Selected distractor option: 'The forces are unbalanced, so there is a net force on Ken.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: To determine if there is a net force on Ken, look at the forces:\nEarth's gravity is pulling Ken down with a force of 400 N.\nThe diving board is pushing Ken up with a force of 400 N.\nThe forces are in ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-576",
+    "template_group_id": "GRP-REAL-SQA-576",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-576",
+      "question_type": "mcq",
+      "question_text": "As Rusty pulls on the toy, what is the direction of the opposing force? Options: away from Coco, toward Coco",
+      "expected_physics_summary": "Find the direction Rusty pulls on the toy.\nTwo dogs, Rusty and Coco, play with a toy. Think about two of the forces that act on the toy:\nCoco pulls toward herself.\nRusty pulls away from Coco.\nThe text tells you that Rusty pulls away from Coco. The opposite direction is toward Coco. So, the direction of the opposing force is toward Coco."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "away from Coco",
+      "working_steps": "Selected distractor option: 'away from Coco' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Find the direction Rusty pulls on the toy.\nTwo dogs, Rusty and Coco, play with a toy. Think about two of the forces that act on the toy:\nCoco pulls toward herself.\nRusty pulls away from Coco.\nThe text",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-590",
+    "template_group_id": "GRP-REAL-SQA-590",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-590",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 1 than in Pair 2. So, the magnitude of the magnetic force is smaller in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-595",
+    "template_group_id": "GRP-REAL-SQA-595",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-595",
+      "question_type": "mcq",
+      "question_text": "The students start rolling their backpacks at the same speed. Which backpack is pulled with a larger force? Options: a backpack carrying 9 pounds, a backpack carrying 6 pounds",
+      "expected_physics_summary": "Look for the backpack that is heavier.\nA backpack carrying 9 pounds is heavier than a backpack carrying 6 pounds. So, the backpack carrying 9 pounds needs to be pulled with a larger force to start rolling at the same speed as the other backpack."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "a backpack carrying 6 pounds",
+      "working_steps": "Selected distractor option: 'a backpack carrying 6 pounds' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Look for the backpack that is heavier.\nA backpack carrying 9 pounds is heavier than a backpack carrying 6 pounds. So, the backpack carrying 9 pounds needs to be pulled with a larger force to start rol",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-596",
+    "template_group_id": "GRP-REAL-SQA-596",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-596",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs.",
+      "expected_physics_summary": "Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-660",
+    "template_group_id": "GRP-REAL-SQA-660",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-660",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1.",
+      "expected_physics_summary": "Both magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same.\nSo, the magnitude of the magnetic force is the same in both pairs."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnitude of the magnetic force is smaller in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnitude of the magnetic force is smaller in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Both magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same.\nSo, the magn",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-661",
+    "template_group_id": "GRP-REAL-SQA-661",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-661",
+      "question_type": "mcq",
+      "question_text": "Assume all other forces on Kylie are balanced. Which statement describes the forces on Kylie? Options: The forces are balanced, so there is no net force on Kylie., The forces are unbalanced, so there is a net force on Kylie.",
+      "expected_physics_summary": "To determine if there is a net force on Kylie, look at the forces:\nEarth's gravity is pulling Kylie down with a force of 600 N.\nThe seat of the cart is pushing Kylie up with a force of 1,200 N.\nThe forces are in opposite directions, and the forces have different magnitudes: 600 N and 1,200 N. This means that the forces are unbalanced, so there is a net force on Kylie."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The forces are balanced, so there is no net force on Kylie.",
+      "working_steps": "Selected distractor option: 'The forces are balanced, so there is no net force on Kylie.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: To determine if there is a net force on Kylie, look at the forces:\nEarth's gravity is pulling Kylie down with a force of 600 N.\nThe seat of the cart is pushing Kylie up with a force of 1,200 N.\nThe fo",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-662",
+    "template_group_id": "GRP-REAL-SQA-662",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-662",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. When magnets are farther apart, the magnetic force between them is weaker.\nThe magnets in Pair 1 are farther apart than the magnets in Pair 2. So, the magnetic force is weaker in Pair 1 than in Pair 2."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnetic force is weaker in Pair 2.",
+      "working_steps": "Selected distractor option: 'The magnetic force is weaker in Pair 2.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. When magnets are farther apart, the magnetic force between them is weaker.\nThe magnets in Pair 1 are farther apart than the magnets in Pair 2. So, ",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
+  },
+  {
+    "record_id": "REAL-SQA-664",
+    "template_group_id": "GRP-REAL-SQA-664",
+    "grade": 9,
+    "chapter": "Motion and Force",
+    "concept_id": "G09",
+    "question": {
+      "question_id": "SQA-664",
+      "question_type": "mcq",
+      "question_text": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true? Options: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1., The magnetic force is weaker in Pair 2.",
+      "expected_physics_summary": "Distance affects the strength of the magnetic force. But the distance between the magnets in Pair 1 and in Pair 2 is the same.\nSo, the strength of the magnetic force is the same in both pairs."
+    },
+    "student_submission": {
+      "input_mode": "mcq_selection",
+      "final_answer": "The magnetic force is weaker in Pair 1.",
+      "working_steps": "Selected distractor option: 'The magnetic force is weaker in Pair 1.' based on naive physical intuition.",
+      "extracted_ocr_confidence": null
+    },
+    "ground_truth": {
+      "coarse_category": "CONCEPTUAL_MISCONCEPTION",
+      "primary_label": "MISC-G09-MOT-02",
+      "confidence": 0.95,
+      "diagnostic_rationale": "Authentic student distractor from ScienceQA. Explanatory Context: Distance affects the strength of the magnetic force. But the distance between the magnets in Pair 1 and in Pair 2 is the same.\nSo, the strength of the magnetic force is the same in both pairs.",
+      "data_origin": "REAL_WORLD_SCIENCEQA_BENCHMARK"
+    }
   }
 ]
