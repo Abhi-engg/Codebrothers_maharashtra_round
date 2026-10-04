@@ -168,9 +168,18 @@ const app = {
       evidenceContainer.style.display = 'block';
       actionRow.style.display = 'flex';
       
-      document.getElementById('diag-name').innerText = `Possible misconception: ${diagnosis.misconception_id}`;
+      document.getElementById('diag-name').innerText = `Misconception detected:\n${diagnosis.misconception_id}`;
       document.getElementById('diag-conf').innerText = `${(diagnosis.confidence * 100).toFixed(0)}%`;
-      document.getElementById('diag-evidence').innerText = `Model identified this pattern based on your steps.`;
+      
+      const studentReasoning = document.getElementById('q-working').value || "No reasoning provided.";
+      document.getElementById('diag-evidence').innerHTML = `You reasoned: <br><i>"${studentReasoning}"</i><br><br><strong>Why this is incorrect:</strong> This contradicts the established physical relationship.`;
+      
+      // Technical panel
+      document.getElementById('tech-misc-id').innerText = diagnosis.misconception_id;
+      document.getElementById('tech-conf').innerText = `${(diagnosis.confidence * 100).toFixed(1)}%`;
+      // We don't have exact history from the basic API return without a profile fetch, so we mock it for the demo
+      document.getElementById('tech-history').innerText = "3 times (Session 2)";
+      document.getElementById('tech-status').innerText = "Unresolved";
     }
   },
 

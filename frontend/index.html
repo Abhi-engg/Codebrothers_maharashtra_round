@@ -41,41 +41,38 @@
   <!-- Main Content -->
   <main class="content">
     
-    <!-- 1. Student Home -->
+    <!-- 1. Screen 1 - Student & Topic -->
     <section id="view-home" class="view active">
       <header>
-        <h1>Good morning</h1>
-        <p class="subtitle">Continue your learning journey.</p>
+        <h1>Create Learning Session</h1>
+        <p class="subtitle">Select a student and topic to begin the adaptive loop.</p>
       </header>
       
-      <div class="grid">
+      <div class="grid" style="max-width: 600px;">
         <div class="card continue-learning">
           <div class="card-header">
-            <h3>Physics</h3>
-            <span class="badge">Electricity</span>
+            <h3>Session Setup</h3>
           </div>
-          <p>Next up: Series and Parallel Circuits</p>
-          <button class="btn btn-primary" onclick="app.startQuiz()">
-            Continue <i data-lucide="arrow-right"></i>
+          
+          <label style="display: block; margin-top: 1rem;">Student</label>
+          <select id="session-student" class="input-field" style="margin-bottom: 1rem;">
+            <option value="1">Aarav (Class 10)</option>
+            <option value="2">Priya (Class 10)</option>
+          </select>
+
+          <label style="display: block;">Subject</label>
+          <input type="text" class="input-field" value="Physics" disabled style="margin-bottom: 1rem; background: #F3F4F6;">
+
+          <label style="display: block;">Topic</label>
+          <select id="session-topic" class="input-field" style="margin-bottom: 1.5rem;">
+            <option value="Electricity">Electricity</option>
+            <option value="Light">Light - Reflection & Refraction</option>
+            <option value="Motion">Motion</option>
+          </select>
+
+          <button class="btn btn-primary" onclick="app.startQuiz()" style="width: 100%;">
+            Generate Quiz <i data-lucide="zap"></i>
           </button>
-        </div>
-        
-        <div class="card understanding-summary">
-          <div class="card-header">
-            <h3>Understanding</h3>
-          </div>
-          <div class="status-row">
-            <span>Electricity</span>
-            <span class="status developing">Developing</span>
-          </div>
-          <div class="status-row">
-            <span>Light</span>
-            <span class="status strong">Strong</span>
-          </div>
-          <div class="status-row">
-            <span>Magnetism</span>
-            <span class="status attention">Needs attention</span>
-          </div>
         </div>
       </div>
     </section>
@@ -131,15 +128,38 @@
           <button class="btn btn-primary" id="btn-submit-followup" onclick="app.submitFollowup()">Submit Follow-up</button>
         </div>
 
-        <!-- Progressive Disclosure -->
+        <!-- Progressive Disclosure (Student Facing) -->
         <details class="progressive-disclosure" id="diag-evidence-container">
-          <summary>See why</summary>
+          <summary>Why we detected this</summary>
           <div class="details-content">
-            <p id="diag-evidence">Based on your working: "...".</p>
+            <p id="diag-evidence" style="background: #FEF2F2; padding: 10px; border-left: 3px solid #EF4444;">Based on your reasoning...</p>
+          </div>
+        </details>
+
+        <!-- Technical Analysis / Screen 4 -->
+        <details class="progressive-disclosure" style="margin-top: 1.5rem; background: #F8FAFC;">
+          <summary style="color: #334155; font-size: 0.875rem;"><i data-lucide="cpu" style="width:16px; margin-right:0.5rem; vertical-align:middle;"></i> Technical Analysis (ML Pipeline)</summary>
+          <div class="details-content" style="font-family: monospace; font-size: 0.8rem; line-height: 1.4;">
+            <div style="margin-bottom: 1rem;">
+              <strong style="color: #475569;">INPUT</strong><br>
+              Question + Answer + Reasoning<br>
+              ↓
+            </div>
+            <div style="margin-bottom: 1rem;">
+              <strong style="color: #475569;">MISCONCEPTION CLASSIFIER (DeBERTa-v3)</strong><br>
+              ↓<br>
+              Predicted misconception: <span id="tech-misc-id" style="color: #0369A1; font-weight: bold;">M02</span><br>
+              Confidence: <span id="tech-conf">94%</span>
+            </div>
+            <div>
+              <strong style="color: #475569;">STUDENT MISCONCEPTION HISTORY (GRU)</strong><br>
+              Occurrences: <span id="tech-history">3 times</span><br>
+              Status: <span id="tech-status" style="color: #BE123C;">Unresolved</span>
+            </div>
           </div>
         </details>
         
-        <div class="action-row" id="diag-action-row">
+        <div class="action-row" id="diag-action-row" style="margin-top: 2rem;">
           <button class="btn btn-primary" onclick="app.showIntervention()">Let's review</button>
         </div>
       </div>
@@ -162,6 +182,13 @@
               <button id="wb-pause"><i data-lucide="pause"></i></button>
               <button id="wb-reset"><i data-lucide="rotate-ccw"></i></button>
             </div>
+          </div>
+
+          <!-- Physics Animation Component -->
+          <div style="margin-top: 1.5rem; text-align: center;">
+            <button class="btn btn-primary" style="background: #4F46E5;" onclick="alert('Demo: Physics Animation Engine loading 3D concept visualization...')">
+              <i data-lucide="video"></i> Show Physics Animation
+            </button>
           </div>
         </div>
         
