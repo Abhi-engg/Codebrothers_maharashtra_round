@@ -158,13 +158,13 @@ const app = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          student_id: currentStudentId,
+          student_id: parseInt(document.getElementById('session-student').value) || currentStudentId,
+          question_id: currentQuestion.question_id,
           question_text: currentQuestion.question_text,
-          correct_solution: "N/A", // Ideally fetched from question
-          student_answer: answer,
-          student_working: working,
-          image_data: null,
-          use_sequence_model: true
+          expected_solution: currentQuestion.expected_physics_summary || "N/A",
+          input_mode: "typed_text",
+          final_answer: answer,
+          working_steps: working
         })
       });
 
@@ -185,7 +185,7 @@ const app = {
   renderDiagnosis(diagnosis) {
     this.showView('view-diagnosis');
     
-    const isUncertain = !diagnosis || diagnosis.misconception_id === 'UNCERTAIN';
+    const isUncertain = !diagnosis || diagnosis.final_diagnosis === 'UNCERTAIN';
     
     const successBox = document.getElementById('diag-success-box');
     const uncertainBox = document.getElementById('diag-uncertain-box');
@@ -204,15 +204,15 @@ const app = {
       evidenceContainer.style.display = 'block';
       actionRow.style.display = 'flex';
       
-      document.getElementById('diag-name').innerText = `Misconception detected:\n${diagnosis.misconception_id}`;
-      document.getElementById('diag-conf').innerText = `${(diagnosis.confidence * 100).toFixed(0)}%`;
+      document.getElementById('diag-name').innerText = `Misconception detected:\n${diagnosis.final_diagnosis}`;
+      document.getElementById('diag-conf').innerText = `${(diagnosis.final_confidence * 100).toFixed(0)}%`;
       
       const studentReasoning = document.getElementById('q-working').value || "No reasoning provided.";
       document.getElementById('diag-evidence').innerHTML = `You reasoned: <br><i>"${studentReasoning}"</i><br><br><strong>Why this is incorrect:</strong> This contradicts the established physical relationship.`;
       
       // Technical panel
-      document.getElementById('tech-misc-id').innerText = diagnosis.misconception_id;
-      document.getElementById('tech-conf').innerText = `${(diagnosis.confidence * 100).toFixed(1)}%`;
+      document.getElementById('tech-misc-id').innerText = diagnosis.final_diagnosis;
+      document.getElementById('tech-conf').innerText = `${(diagnosis.final_confidence * 100).toFixed(1)}%`;
       // We don't have exact history from the basic API return without a profile fetch, so we mock it for the demo
       document.getElementById('tech-history').innerText = "3 times (Session 2)";
       document.getElementById('tech-status').innerText = "Unresolved";
@@ -236,13 +236,13 @@ const app = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          student_id: currentStudentId,
+          student_id: parseInt(document.getElementById('session-student').value) || currentStudentId,
+          question_id: currentQuestion.question_id,
           question_text: currentQuestion.question_text,
-          correct_solution: "N/A",
-          student_answer: document.getElementById('q-answer').value,
-          student_working: combinedWorking,
-          image_data: null,
-          use_sequence_model: true
+          expected_solution: currentQuestion.expected_physics_summary || "N/A",
+          input_mode: "typed_text",
+          final_answer: document.getElementById('q-answer').value,
+          working_steps: combinedWorking
         })
       });
 
@@ -262,7 +262,7 @@ const app = {
   },
 
   async showIntervention() {
-    if (!currentDiagnosis || currentDiagnosis.misconception_id === 'UNCERTAIN') {
+    if (!currentDiagnosis || currentDiagnosis.final_diagnosis === 'UNCERTAIN') {
        // Skip to reassessment if uncertain
        this.showReassessment();
        return;
@@ -276,10 +276,10 @@ const app = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          student_id: currentStudentId,
-          misconception_id: currentDiagnosis.misconception_id,
-          original_question: currentQuestion.question_text,
-          student_working: document.getElementById('q-working').value
+          student_id: document.getElementById('session-student').value || currentStudentId.toString(),
+          misconception_id: currentDiagnosis.final_diagnosis,
+          student_error: document.getElementById('q-working').value,
+          question_text: currentQuestion.question_text
         })
       });
       
@@ -324,9 +324,9 @@ const app = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          student_id: currentStudentId,
-          misconception_id: currentDiagnosis ? currentDiagnosis.misconception_id : "MISC-UNKNOWN",
-          transfer_question: document.getElementById('re-body').innerText,
+          student_id: parseInt(document.getElementById('session-student').value) || currentStudentId,
+          misconception_id: currentDiagnosis ? currentDiagnosis.final_diagnosis : "MISC-UNKNOWN",
+          transfer_question_id: `RE-${currentQuestion ? currentQuestion.question_id : '01'}`,
           student_answer: answer,
           student_working: working
         })
@@ -335,7 +335,7 @@ const app = {
       if (!response.ok) throw new Error("Reassessment failed");
       const result = await response.json();
       
-      alert(`Mastery Status Updated to: ${result.new_status}`);
+      alert(`Mastery Status Updated to: ${result.mastery_state}`);
       
       // Continue to next question in the sequence
       this.nextQuestion();
