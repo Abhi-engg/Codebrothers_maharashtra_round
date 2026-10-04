@@ -61,6 +61,9 @@ const app = {
 
   async startQuiz() {
     this.showView('view-question');
+    const selectedTopic = document.getElementById('session-topic').options[document.getElementById('session-topic').selectedIndex].text;
+    document.getElementById('quiz-topic-badge').innerText = selectedTopic;
+    
     document.getElementById('q-title').innerText = "Loading quiz...";
     document.getElementById('q-body').innerHTML = "";
     document.getElementById('q-answer').value = "";

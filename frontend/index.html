@@ -56,8 +56,10 @@
           
           <label style="display: block; margin-top: 1rem;">Student</label>
           <select id="session-student" class="input-field" style="margin-bottom: 1rem;">
-            <option value="1">Aarav (Class 10)</option>
+            <option value="1">Aarav (Class 9)</option>
             <option value="2">Priya (Class 10)</option>
+            <option value="3">Rahul (Class 11)</option>
+            <option value="4">Ananya (Class 12)</option>
           </select>
 
           <label style="display: block;">Subject</label>
@@ -65,9 +67,40 @@
 
           <label style="display: block;">Topic</label>
           <select id="session-topic" class="input-field" style="margin-bottom: 1.5rem;">
-            <option value="Electricity">Electricity</option>
-            <option value="Light">Light - Reflection & Refraction</option>
-            <option value="Motion">Motion</option>
+            <optgroup label="Class 9">
+              <option value="Motion">Motion</option>
+              <option value="Force and Laws of Motion">Force and Laws of Motion</option>
+              <option value="Gravitation">Gravitation</option>
+              <option value="Work and Energy">Work and Energy</option>
+              <option value="Sound">Sound</option>
+            </optgroup>
+            <optgroup label="Class 10">
+              <option value="Light">Light - Reflection & Refraction</option>
+              <option value="Human Eye">The Human Eye & Colourful World</option>
+              <option value="Electricity">Electricity</option>
+              <option value="Magnetic Effects">Magnetic Effects of Electric Current</option>
+            </optgroup>
+            <optgroup label="Class 11">
+              <option value="Kinematics">Kinematics (Motion)</option>
+              <option value="Laws of Motion">Laws of Motion</option>
+              <option value="Work Energy Power">Work, Energy and Power</option>
+              <option value="Rotational Motion">System of Particles & Rotational Motion</option>
+              <option value="Gravitation 11">Gravitation</option>
+              <option value="Properties of Bulk Matter">Properties of Bulk Matter</option>
+              <option value="Thermodynamics">Thermodynamics</option>
+              <option value="Oscillations and Waves">Oscillations and Waves</option>
+            </optgroup>
+            <optgroup label="Class 12">
+              <option value="Electrostatics">Electrostatics</option>
+              <option value="Current Electricity">Current Electricity</option>
+              <option value="Magnetic Effects 12">Magnetic Effects of Current & Magnetism</option>
+              <option value="Electromagnetic Induction">Electromagnetic Induction & AC</option>
+              <option value="Electromagnetic Waves">Electromagnetic Waves</option>
+              <option value="Optics">Optics</option>
+              <option value="Dual Nature">Dual Nature of Radiation & Matter</option>
+              <option value="Atoms Nuclei">Atoms & Nuclei</option>
+              <option value="Electronic Devices">Electronic Devices</option>
+            </optgroup>
           </select>
 
           <button class="btn btn-primary" onclick="app.startQuiz()" style="width: 100%;">
@@ -81,7 +114,7 @@
     <section id="view-question" class="view">
       <div class="quiz-container">
         <header>
-          <span class="topic-badge">Electricity</span>
+          <span class="topic-badge" id="quiz-topic-badge">Electricity</span>
           <h2 id="q-title">Loading question...</h2>
         </header>
         
