@@ -49,34 +49,38 @@ def main() -> int:
         if idx + 1 < len(argv_copy):
             model_choice = argv_copy[idx + 1]
 
-    if model_choice in ("baseline", "deberta") and any(h in argv_copy for h in ("-h", "--help")):
+    if model_choice in ("baseline", "deberta", "sequence") and any(h in argv_copy for h in ("-h", "--help")):
         # Remove --model and its value so sub-script gets the rest (including --help)
         remaining = [arg for i, arg in enumerate(argv_copy) if i not in (idx, idx + 1)]
         sys.argv = [sys.argv[0]] + remaining[1:]
         if model_choice == "baseline":
             import train_baseline
             return train_baseline.main()
-        else:
+        elif model_choice == "deberta":
             import train_deberta
             return train_deberta.main()
+        else:
+            import train_sequence
+            return train_sequence.main()
 
     parser = argparse.ArgumentParser(
         description="Re:Learn Unified Model Training CLI",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Models available:
-  baseline : Scikit-learn TF-IDF + Calibrated Logistic Regression (Fast CPU/GPU baseline)
-  deberta  : Microsoft DeBERTa-v3-base with Partial Training Strategy (@[Quote] freezing & Focal Loss)
+  baseline : Scikit-learn TF-IDF + Calibrated Logistic Regression (Model 1 Baseline)
+  deberta  : Microsoft DeBERTa-v3-base with Partial Training (Model 1 Deep Model)
+  sequence : Bidirectional GRU + Attention Pooling & Rule-Based Tracker (Model 2 Longitudinal Model)
 
-Run with '--help' after specifying model (e.g. 'python train.py --model baseline --help') or inspect train_baseline.py / train_deberta.py.
+Run with '--help' after specifying model (e.g. 'python train.py --model sequence --help').
         """,
     )
     parser.add_argument(
         "--model",
         type=str,
-        choices=["baseline", "deberta"],
+        choices=["baseline", "deberta", "sequence"],
         required=True,
-        help="Model architecture to train ('baseline' or 'deberta')",
+        help="Model architecture to train ('baseline', 'deberta', or 'sequence')",
     )
 
     # Parse only known args for --model so that remaining args can be forwarded to the specific runner
@@ -84,15 +88,18 @@ Run with '--help' after specifying model (e.g. 'python train.py --model baseline
 
     if known_args.model == "baseline":
         import train_baseline
-        # Re-set sys.argv for the target script
         sys.argv = [sys.argv[0]] + remaining_args
         return train_baseline.main()
 
     elif known_args.model == "deberta":
         import train_deberta
-        # Re-set sys.argv for the target script
         sys.argv = [sys.argv[0]] + remaining_args
         return train_deberta.main()
+
+    elif known_args.model == "sequence":
+        import train_sequence
+        sys.argv = [sys.argv[0]] + remaining_args
+        return train_sequence.main()
 
     else:
         print(f"Error: Unsupported model '{known_args.model}'", file=sys.stderr)

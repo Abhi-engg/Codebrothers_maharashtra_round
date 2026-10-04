@@ -15,6 +15,12 @@ from backend.models.classifier import (
     TRANSFORMERS_AVAILABLE,
 )
 
+from backend.models.sequence_model import (
+    RuleBasedSequenceAnalyzer,
+    GRUSequenceAnalyzer,
+    SEQUENCE_PATTERN_CLASSES,
+)
+
 __all__ = [
     "MisconceptionBaselineClassifier",
     "BaselineMisconceptionClassifier",
@@ -24,6 +30,9 @@ __all__ = [
     "extract_record_label",
     "load_taxonomy_labels",
     "compute_balanced_class_weights",
+    "RuleBasedSequenceAnalyzer",
+    "GRUSequenceAnalyzer",
+    "SEQUENCE_PATTERN_CLASSES",
     "SKLEARN_AVAILABLE",
     "TORCH_AVAILABLE",
     "TRANSFORMERS_AVAILABLE",

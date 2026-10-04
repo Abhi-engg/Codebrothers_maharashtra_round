@@ -1,0 +1,28 @@
+{
+  "taxonomy_classes": [
+    "MISC-G09-MOT-01",
+    "MISC-G09-MOT-02",
+    "MISC-G09-GRV-01",
+    "MISC-G10-OPT-01",
+    "MISC-G10-OPT-02",
+    "MISC-G10-OPT-03",
+    "MISC-G10-ELE-01",
+    "MISC-G10-ELE-02",
+    "MISC-G10-ELE-03",
+    "MISC-G11-KIN-01",
+    "MISC-G11-DYN-01",
+    "MISC-G12-EST-01",
+    "MISC-G12-EMI-01",
+    "CORRECT",
+    "SLIP-ARITHMETIC",
+    "SLIP-UNIT",
+    "UNCERTAIN-GUESS"
+  ],
+  "pattern_classes": [
+    "PERSISTENT_MISCONCEPTION",
+    "TRANSIENT_SLIP",
+    "RESOLVING_TRAJECTORY"
+  ],
+  "num_diagnosis_classes": 17,
+  "num_pattern_classes": 3
+}
