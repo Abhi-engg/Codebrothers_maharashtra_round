@@ -22,6 +22,27 @@ const app = {
 
     // Load initial data
     this.loadProfile();
+    this.filterTopicsByClass(); // Initialize the topic dropdown based on the default selected student
+  },
+
+  filterTopicsByClass() {
+    const studentSelect = document.getElementById('session-student');
+    const selectedClass = studentSelect.options[studentSelect.selectedIndex].getAttribute('data-class');
+    const topicSelect = document.getElementById('session-topic');
+    
+    let firstVisibleOptionSet = false;
+
+    Array.from(topicSelect.getElementsByTagName('optgroup')).forEach(group => {
+      if (group.label === `Class ${selectedClass}`) {
+        group.style.display = '';
+        if (!firstVisibleOptionSet) {
+          topicSelect.value = group.querySelector('option').value;
+          firstVisibleOptionSet = true;
+        }
+      } else {
+        group.style.display = 'none';
+      }
+    });
   },
 
   bindNavigation() {

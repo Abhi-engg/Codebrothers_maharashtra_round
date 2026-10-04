@@ -55,11 +55,11 @@
           </div>
           
           <label style="display: block; margin-top: 1rem;">Student</label>
-          <select id="session-student" class="input-field" style="margin-bottom: 1rem;">
-            <option value="1">Aarav (Class 9)</option>
-            <option value="2">Priya (Class 10)</option>
-            <option value="3">Rahul (Class 11)</option>
-            <option value="4">Ananya (Class 12)</option>
+          <select id="session-student" class="input-field" style="margin-bottom: 1rem;" onchange="app.filterTopicsByClass()">
+            <option value="1" data-class="9">Aarav (Class 9)</option>
+            <option value="2" data-class="10">Priya (Class 10)</option>
+            <option value="3" data-class="11">Rahul (Class 11)</option>
+            <option value="4" data-class="12">Ananya (Class 12)</option>
           </select>
 
           <label style="display: block;">Subject</label>
