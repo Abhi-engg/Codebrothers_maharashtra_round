@@ -1,12 +1,12 @@
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, field_validator, ValidationInfo
 from typing import List, Literal, Optional, Union
 
 class CoordinateMixin(BaseModel):
-    @validator("*", pre=True)
-    def check_normalized_coordinates(cls, v, field):
-        if field.name in ["x", "y", "x1", "y1", "x2", "y2"]:
-            if not (0.0 <= v <= 1.0):
-                raise ValueError(f"Coordinate {field.name} must be normalized between 0.0 and 1.0, got {v}")
+    @field_validator("x", "y", "x1", "y1", "x2", "y2", check_fields=False)
+    @classmethod
+    def check_normalized_coordinates(cls, v: float, info: ValidationInfo):
+        if not (0.0 <= v <= 1.0):
+            raise ValueError(f"Coordinate {info.field_name} must be normalized between 0.0 and 1.0, got {v}")
         return v
 
 class DrawLine(CoordinateMixin):
