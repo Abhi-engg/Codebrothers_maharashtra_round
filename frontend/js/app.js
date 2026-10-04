@@ -70,13 +70,15 @@ const app = {
       // Fetch available questions
       const response = await fetch(`${API_BASE_URL}/quiz/questions`);
       if (!response.ok) throw new Error("Failed to load questions");
-      const questions = await response.json();
+      const data = await response.json();
       
       // Pick the first one for the demo
-      if (questions.length > 0) {
-        currentQuestion = questions[0];
-        document.getElementById('q-title').innerText = currentQuestion.template_id;
+      if (data.questions && data.questions.length > 0) {
+        currentQuestion = data.questions[0];
+        document.getElementById('q-title').innerText = currentQuestion.template_id || "Practice Question";
         document.getElementById('q-body').innerText = currentQuestion.question_text;
+      } else {
+        document.getElementById('q-title').innerText = "No questions found";
       }
     } catch (err) {
       console.error(err);
