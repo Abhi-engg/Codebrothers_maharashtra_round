@@ -221,3 +221,9 @@ __marimo__/
 
 # Large raw datasets
 data/raw/scienceqa_raw.json
+
+# Model binary weights (>100MB, keep JSON metrics and configs)
+*.safetensors
+*.bin
+*.pt
+checkpoints/benchmark/
