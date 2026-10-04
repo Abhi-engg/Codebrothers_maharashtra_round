@@ -289,31 +289,37 @@ def update_student_proficiency(db: Session, student_id: int) -> float:
 # ==============================================================================
 
 def load_question_catalog(data_dir: Path) -> List[Dict[str, Any]]:
-    """Loads deduplicated questions from individual_dataset.json, with taxonomy fallback."""
+    """Loads deduplicated questions from test and val datasets to demonstrate generalization on unseen data."""
     questions: Dict[str, Dict[str, Any]] = {}
-    indiv_path = data_dir / "individual_dataset.json"
+    
+    # Load from test and val sets to ensure quiz is generated on hold-out data
+    split_paths = [data_dir / "splits" / "test.json", data_dir / "splits" / "val.json"]
+    
+    records = []
+    for path in split_paths:
+        if path.exists():
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    records.extend(json.load(f))
+            except Exception as e:
+                logger.warning(f"Failed to load {path.name}: {e}")
 
-    if indiv_path.exists():
-        try:
-            with open(indiv_path, "r", encoding="utf-8") as f:
-                records = json.load(f)
-            for rec in records:
-                q = rec.get("question")
-                if q and "question_id" in q and q["question_id"] not in questions:
-                    qid = str(q["question_id"]).strip()
-                    questions[qid] = {
-                        "question_id": qid,
-                        "question_text": str(q.get("question_text") or "").strip(),
-                        "expected_physics_summary": q.get("expected_physics_summary"),
-                        "question_type": str(q.get("question_type") or "numerical_with_steps"),
-                        "grade": rec.get("grade"),
-                        "chapter": rec.get("chapter"),
-                        "concept_id": rec.get("concept_id"),
-                        "template_group_id": rec.get("template_group_id"),
-                    }
-            logger.info(f"Loaded {len(questions)} unique questions from {indiv_path.name}")
-        except Exception as e:
-            logger.warning(f"Failed to load questions from {indiv_path}: {e}")
+    for rec in records:
+        q = rec.get("question")
+        if q and "question_id" in q and q["question_id"] not in questions:
+            qid = str(q["question_id"]).strip()
+            questions[qid] = {
+                "question_id": qid,
+                "question_text": str(q.get("question_text") or "").strip(),
+                "expected_physics_summary": q.get("expected_physics_summary"),
+                "question_type": str(q.get("question_type") or "numerical_with_steps"),
+                "grade": rec.get("grade"),
+                "chapter": rec.get("chapter"),
+                "concept_id": rec.get("concept_id"),
+                "template_group_id": rec.get("template_group_id"),
+            }
+            
+    logger.info(f"Loaded {len(questions)} unique questions from validation and test splits")
 
     # Fallback to taxonomy if questions dataset empty
     if not questions:
