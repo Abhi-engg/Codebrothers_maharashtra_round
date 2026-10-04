@@ -55,7 +55,7 @@
             <span class="badge">Electricity</span>
           </div>
           <p>Next up: Series and Parallel Circuits</p>
-          <button class="btn btn-primary" onclick="app.loadQuestion()">
+          <button class="btn btn-primary" onclick="app.startQuiz()">
             Continue <i data-lucide="arrow-right"></i>
           </button>
         </div>
@@ -114,7 +114,7 @@
           <h2>System Diagnosis</h2>
         </div>
         
-        <div class="misconception-box">
+        <div class="misconception-box" id="diag-success-box">
           <span class="label">Possible misconception</span>
           <h3 id="diag-name">Current and resistance are being treated as directly proportional.</h3>
           <div class="confidence-indicator">
@@ -123,15 +123,23 @@
           </div>
         </div>
         
+        <div id="diag-uncertain-box" style="display: none; background: #FFFBEB; border: 1px solid #FDE68A; padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem;">
+          <h3 style="color: #B45309; margin-bottom: 0.5rem;">Uncertain Diagnosis</h3>
+          <p style="margin-bottom: 1rem; color: #92400E;">The system needs more evidence to confidently identify the underlying concept.</p>
+          <label for="diag-followup-answer" style="font-weight: 500; display: block; margin-bottom: 0.5rem;">Diagnostic Follow-up: Could you briefly explain how you arrived at your initial equation?</label>
+          <textarea id="diag-followup-answer" class="input-field" placeholder="Your explanation..." style="min-height: 80px;"></textarea>
+          <button class="btn btn-primary" id="btn-submit-followup" onclick="app.submitFollowup()">Submit Follow-up</button>
+        </div>
+
         <!-- Progressive Disclosure -->
-        <details class="progressive-disclosure">
+        <details class="progressive-disclosure" id="diag-evidence-container">
           <summary>See why</summary>
           <div class="details-content">
             <p id="diag-evidence">Based on your working: "...".</p>
           </div>
         </details>
         
-        <div class="action-row">
+        <div class="action-row" id="diag-action-row">
           <button class="btn btn-primary" onclick="app.showIntervention()">Let's review</button>
         </div>
       </div>

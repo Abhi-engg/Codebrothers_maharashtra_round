@@ -59,9 +59,9 @@ const app = {
     }
   },
 
-  async loadQuestion() {
+  async startQuiz() {
     this.showView('view-question');
-    document.getElementById('q-title').innerText = "Loading...";
+    document.getElementById('q-title').innerText = "Loading quiz...";
     document.getElementById('q-body').innerHTML = "";
     document.getElementById('q-answer').value = "";
     document.getElementById('q-working').value = "";
@@ -72,17 +72,36 @@ const app = {
       if (!response.ok) throw new Error("Failed to load questions");
       const data = await response.json();
       
-      // Pick the first one for the demo
       if (data.questions && data.questions.length > 0) {
-        currentQuestion = data.questions[0];
-        document.getElementById('q-title').innerText = currentQuestion.template_id || "Practice Question";
-        document.getElementById('q-body').innerText = currentQuestion.question_text;
+        this.quizQuestions = data.questions;
+        this.currentQuestionIndex = 0;
+        this.renderCurrentQuestion();
       } else {
         document.getElementById('q-title').innerText = "No questions found";
       }
     } catch (err) {
       console.error(err);
-      document.getElementById('q-title').innerText = "Error loading question";
+      document.getElementById('q-title').innerText = "Error loading quiz";
+    }
+  },
+
+  renderCurrentQuestion() {
+    currentQuestion = this.quizQuestions[this.currentQuestionIndex];
+    document.getElementById('q-title').innerText = `Question ${this.currentQuestionIndex + 1} of ${this.quizQuestions.length}`;
+    document.getElementById('q-body').innerText = currentQuestion.question_text;
+    document.getElementById('q-answer').value = "";
+    document.getElementById('q-working').value = "";
+  },
+
+  nextQuestion() {
+    if (this.currentQuestionIndex < this.quizQuestions.length - 1) {
+      this.currentQuestionIndex++;
+      this.renderCurrentQuestion();
+      this.showView('view-question');
+    } else {
+      alert("Quiz complete! Returning home.");
+      this.showView('view-home');
+      this.loadProfile();
     }
   },
 
@@ -130,13 +149,71 @@ const app = {
   renderDiagnosis(diagnosis) {
     this.showView('view-diagnosis');
     
-    // Update diagnosis UI
-    document.getElementById('diag-name').innerText = diagnosis.misconception_id !== 'UNCERTAIN' 
-      ? `Possible misconception: ${diagnosis.misconception_id}` 
-      : 'Uncertain';
+    const isUncertain = !diagnosis || diagnosis.misconception_id === 'UNCERTAIN';
+    
+    const successBox = document.getElementById('diag-success-box');
+    const uncertainBox = document.getElementById('diag-uncertain-box');
+    const evidenceContainer = document.getElementById('diag-evidence-container');
+    const actionRow = document.getElementById('diag-action-row');
+
+    if (isUncertain) {
+      successBox.style.display = 'none';
+      evidenceContainer.style.display = 'none';
+      actionRow.style.display = 'none';
+      uncertainBox.style.display = 'block';
+      document.getElementById('diag-followup-answer').value = '';
+    } else {
+      uncertainBox.style.display = 'none';
+      successBox.style.display = 'block';
+      evidenceContainer.style.display = 'block';
+      actionRow.style.display = 'flex';
       
-    document.getElementById('diag-conf').innerText = `${(diagnosis.confidence * 100).toFixed(0)}%`;
-    document.getElementById('diag-evidence').innerText = `Model identified this pattern based on your steps.`;
+      document.getElementById('diag-name').innerText = `Possible misconception: ${diagnosis.misconception_id}`;
+      document.getElementById('diag-conf').innerText = `${(diagnosis.confidence * 100).toFixed(0)}%`;
+      document.getElementById('diag-evidence').innerText = `Model identified this pattern based on your steps.`;
+    }
+  },
+
+  async submitFollowup() {
+    const followupAnswer = document.getElementById('diag-followup-answer').value;
+    if (!followupAnswer) return;
+
+    const btn = document.getElementById('btn-submit-followup');
+    btn.disabled = true;
+    btn.innerHTML = `<i data-lucide="loader"></i> Diagnosing...`;
+    lucide.createIcons();
+
+    // We combine the new followup with the previous working to re-diagnose
+    const combinedWorking = document.getElementById('q-working').value + "\nFollow-up: " + followupAnswer;
+    
+    try {
+      const response = await fetch(`${API_BASE_URL}/diagnose`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          student_id: currentStudentId,
+          question_text: currentQuestion.question_text,
+          correct_solution: "N/A",
+          student_answer: document.getElementById('q-answer').value,
+          student_working: combinedWorking,
+          image_data: null,
+          use_sequence_model: true
+        })
+      });
+
+      if (!response.ok) throw new Error("Diagnosis failed");
+      currentDiagnosis = await response.json();
+      
+      // Re-render diagnosis with new result
+      this.renderDiagnosis(currentDiagnosis);
+      
+    } catch (err) {
+      console.error(err);
+      alert("Error on follow-up diagnosis. See console.");
+    } finally {
+      btn.disabled = false;
+      btn.innerText = "Submit Follow-up";
+    }
   },
 
   async showIntervention() {
@@ -215,9 +292,8 @@ const app = {
       
       alert(`Mastery Status Updated to: ${result.new_status}`);
       
-      // Go back to home and reload profile
-      this.showView('view-home');
-      this.loadProfile();
+      // Continue to next question in the sequence
+      this.nextQuestion();
 
     } catch (err) {
       console.error(err);
