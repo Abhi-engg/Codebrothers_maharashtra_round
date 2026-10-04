@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Re:Learn</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Icons (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="sidebar">
+    <div class="logo">
+      <i data-lucide="brain-circuit"></i>
+      <span>Re:Learn</span>
+    </div>
+    <ul class="nav-links">
+      <li data-view="view-home" class="active"><i data-lucide="home"></i> Home</li>
+      <li data-view="view-question"><i data-lucide="pen-tool"></i> Practice</li>
+      <li data-view="view-understanding"><i data-lucide="bar-chart-2"></i> Understanding</li>
+      <li data-view="view-insights"><i data-lucide="users"></i> Insights</li>
+      <li data-view="view-settings"><i data-lucide="settings"></i> Settings</li>
+    </ul>
+    
+    <div class="user-profile">
+      <div class="avatar">S</div>
+      <span>Student</span>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="content">
+    
+    <!-- 1. Student Home -->
+    <section id="view-home" class="view active">
+      <header>
+        <h1>Good morning</h1>
+        <p class="subtitle">Continue your learning journey.</p>
+      </header>
+      
+      <div class="grid">
+        <div class="card continue-learning">
+          <div class="card-header">
+            <h3>Physics</h3>
+            <span class="badge">Electricity</span>
+          </div>
+          <p>Next up: Series and Parallel Circuits</p>
+          <button class="btn btn-primary" onclick="app.loadQuestion()">
+            Continue <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+        
+        <div class="card understanding-summary">
+          <div class="card-header">
+            <h3>Understanding</h3>
+          </div>
+          <div class="status-row">
+            <span>Electricity</span>
+            <span class="status developing">Developing</span>
+          </div>
+          <div class="status-row">
+            <span>Light</span>
+            <span class="status strong">Strong</span>
+          </div>
+          <div class="status-row">
+            <span>Magnetism</span>
+            <span class="status attention">Needs attention</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Question Screen -->
+    <section id="view-question" class="view">
+      <div class="quiz-container">
+        <header>
+          <span class="topic-badge">Electricity</span>
+          <h2 id="q-title">Loading question...</h2>
+        </header>
+        
+        <div id="q-body" class="question-body">
+          <!-- Text and images here -->
+        </div>
+        
+        <div class="answer-section">
+          <label for="q-answer">Your Answer</label>
+          <input type="text" id="q-answer" placeholder="e.g. 5 ohms" class="input-field">
+          
+          <label for="q-working">Why?</label>
+          <textarea id="q-working" placeholder="Briefly explain your reasoning..." class="input-field"></textarea>
+          
+          <div class="action-row">
+            <button class="btn btn-primary" id="btn-submit-answer" onclick="app.submitAnswer()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Diagnosis Screen -->
+    <section id="view-diagnosis" class="view">
+      <div class="diagnosis-card">
+        <div class="diagnosis-header">
+          <i data-lucide="activity" class="diagnosis-icon"></i>
+          <h2>System Diagnosis</h2>
+        </div>
+        
+        <div class="misconception-box">
+          <span class="label">Possible misconception</span>
+          <h3 id="diag-name">Current and resistance are being treated as directly proportional.</h3>
+          <div class="confidence-indicator">
+            <span class="label">Confidence</span>
+            <span class="value" id="diag-conf">91%</span>
+          </div>
+        </div>
+        
+        <!-- Progressive Disclosure -->
+        <details class="progressive-disclosure">
+          <summary>See why</summary>
+          <div class="details-content">
+            <p id="diag-evidence">Based on your working: "...".</p>
+          </div>
+        </details>
+        
+        <div class="action-row">
+          <button class="btn btn-primary" onclick="app.showIntervention()">Let's review</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Intervention Screen -->
+    <section id="view-intervention" class="view">
+      <div class="intervention-container">
+        <header>
+          <h2>Let's fix this idea</h2>
+        </header>
+        
+        <div class="intervention-content">
+          <p id="interv-explanation" class="explanation-text"></p>
+          
+          <div class="whiteboard-container">
+            <canvas id="whiteboard-canvas" width="800" height="400"></canvas>
+            <div class="whiteboard-controls">
+              <button id="wb-play"><i data-lucide="play"></i></button>
+              <button id="wb-pause"><i data-lucide="pause"></i></button>
+              <button id="wb-reset"><i data-lucide="rotate-ccw"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="action-row">
+          <button class="btn btn-primary" onclick="app.showReassessment()">Try another</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Reassessment -->
+    <section id="view-reassessment" class="view">
+      <div class="quiz-container">
+        <header>
+          <span class="topic-badge reassessment">Reassessment</span>
+          <h2 id="re-title">Loading transfer question...</h2>
+        </header>
+        
+        <div id="re-body" class="question-body"></div>
+        
+        <div class="answer-section">
+          <label for="re-answer">Your Answer</label>
+          <input type="text" id="re-answer" placeholder="Your answer" class="input-field">
+          
+          <label for="re-working">Working (Optional but recommended)</label>
+          <textarea id="re-working" placeholder="Show your steps..." class="input-field"></textarea>
+          
+          <div class="action-row">
+            <button class="btn btn-primary" id="btn-submit-re" onclick="app.submitReassessment()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Understanding Screen -->
+    <section id="view-understanding" class="view">
+      <header>
+        <h1>Your Understanding</h1>
+      </header>
+      
+      <div class="grid">
+        <div class="card">
+          <div class="status-row">
+            <span>Electricity</span>
+            <span class="status developing">Developing</span>
+          </div>
+          <div class="status-row">
+            <span>Light</span>
+            <span class="status strong">Strong</span>
+          </div>
+          <div class="status-row">
+            <span>Magnetism</span>
+            <span class="status attention">Needs attention</span>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header">
+            <h3>Recurring Issues</h3>
+          </div>
+          <ul class="issue-list" id="recurring-issues-list">
+            <li>
+              <div class="issue-info">
+                <strong>Current / resistance relationship</strong>
+                <span class="subtext">3 recent attempts</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Teacher Insights -->
+    <section id="view-insights" class="view">
+      <header>
+        <h1>Class 10-A Insights</h1>
+      </header>
+      
+      <div class="grid">
+        <div class="card">
+          <div class="card-header">
+            <h3>Overall Understanding</h3>
+          </div>
+          <div class="status-row">
+            <span>Electricity</span>
+            <span class="value">72%</span>
+          </div>
+          <div class="status-row">
+            <span>Light</span>
+            <span class="value">81%</span>
+          </div>
+          <div class="status-row">
+            <span>Magnetism</span>
+            <span class="value">64%</span>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header">
+            <h3>Common Misconceptions</h3>
+          </div>
+          <ul class="issue-list">
+            <li>
+              <div class="issue-info">
+                <strong>Current / resistance proportionality</strong>
+                <span class="subtext">24% of students</span>
+              </div>
+            </li>
+            <li>
+              <div class="issue-info">
+                <strong>Series / parallel voltage drop</strong>
+                <span class="subtext">18% of students</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/whiteboard.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
