@@ -219,11 +219,16 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Large raw datasets
+# Large raw datasets and binaries
 data/raw/scienceqa_raw.json
-
 # Model binary weights (>100MB, keep JSON metrics and configs)
 *.safetensors
 *.bin
 *.pt
 checkpoints/benchmark/
+
+# Textbooks and local databases
+textbook/
+*.db
+*.sqlite3
+relearn.db

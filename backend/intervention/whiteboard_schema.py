@@ -2,6 +2,10 @@
 Re:Learn Structured Whiteboard Tool Contract
 Defines the safe, typed JSON API for visual pedagogical remediation.
 
+Supports both:
+1. Dataclass-based payload & presets (StructuredWhiteboardPayload, WhiteboardCommand)
+2. Pydantic-based validation models (DrawLine, DrawArrow, DrawShape, DrawText, HighlightRegion, WhiteboardSchema)
+
 Security & Architecture Invariants:
   1. The LLM / backend DOES NOT emit executable JavaScript or Python code.
   2. All coordinates are strictly normalized to [0.0, 1.0].
@@ -15,7 +19,14 @@ import json
 import logging
 import re
 from dataclasses import asdict, dataclass, field
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Literal, Optional, Tuple, Union
+
+try:
+    from pydantic import BaseModel, field_validator, ValidationInfo
+    PYDANTIC_AVAILABLE = True
+except ImportError:
+    PYDANTIC_AVAILABLE = False
+    BaseModel = object  # type: ignore
 
 logger = logging.getLogger("relearn.whiteboard_schema")
 
@@ -40,6 +51,7 @@ VALID_SHAPES = {
     "switch",
     "rectangle",
     "circle",
+    "ray_beam",
 }
 
 
@@ -57,6 +69,86 @@ def sanitize_color(color: Optional[str], default: str = "#2B6CB0") -> str:
         return color_clean
     return default
 
+
+# ==============================================================================
+# PYDANTIC VALIDATION MODELS (PHASE 4 PR)
+# ==============================================================================
+
+if PYDANTIC_AVAILABLE:
+    class CoordinateMixin(BaseModel):
+        @field_validator("x", "y", "x1", "y1", "x2", "y2", check_fields=False)
+        @classmethod
+        def check_normalized_coordinates(cls, v: float, info: ValidationInfo):
+            if not (0.0 <= v <= 1.0):
+                raise ValueError(f"Coordinate {info.field_name} must be normalized between 0.0 and 1.0, got {v}")
+            return v
+
+    class DrawLine(CoordinateMixin):
+        tool: Literal["draw_line"] = "draw_line"
+        x1: float
+        y1: float
+        x2: float
+        y2: float
+        color: str = "#000000"
+        width: int = 2
+        dash: bool = False
+
+    class DrawArrow(CoordinateMixin):
+        tool: Literal["draw_arrow"] = "draw_arrow"
+        x1: float
+        y1: float
+        x2: float
+        y2: float
+        label: Optional[str] = None
+        color: str = "#000000"
+
+    class DrawShape(CoordinateMixin):
+        tool: Literal["draw_shape"] = "draw_shape"
+        type: Literal["concave_mirror", "convex_mirror", "convex_lens", "concave_lens", "resistor", "battery", "bulb", "switch", "rectangle", "circle", "ray_beam"]
+        x: float
+        y: float
+        width: float
+        height: float
+        style: Optional[str] = None
+
+    class DrawText(CoordinateMixin):
+        tool: Literal["draw_text"] = "draw_text"
+        x: float
+        y: float
+        text: str
+        size: int = 14
+        color: str = "#000000"
+        math_flag: bool = False
+
+    class HighlightRegion(CoordinateMixin):
+        tool: Literal["highlight_region"] = "highlight_region"
+        x: float
+        y: float
+        width: float
+        height: float
+        label: Optional[str] = None
+
+    PydanticCommand = Union[DrawLine, DrawArrow, DrawShape, DrawText, HighlightRegion]
+
+    class WhiteboardSchema(BaseModel):
+        commands: List[PydanticCommand]
+
+else:
+    # Minimal stubs if pydantic is not present
+    class CoordinateMixin:  # type: ignore
+        pass
+    DrawLine = Any  # type: ignore
+    DrawArrow = Any  # type: ignore
+    DrawShape = Any  # type: ignore
+    DrawText = Any  # type: ignore
+    HighlightRegion = Any  # type: ignore
+    PydanticCommand = Any  # type: ignore
+    WhiteboardSchema = Any  # type: ignore
+
+
+# ==============================================================================
+# DATACLASS COMMANDS & STRUCTURED PAYLOADS (PHASE 3 / FRONTEND)
+# ==============================================================================
 
 @dataclass
 class WhiteboardCommand:
@@ -97,33 +189,42 @@ class WhiteboardCommand:
             p["shape_type"] = shape_type
             p["x"] = clamp_coord(p.get("x", 0.5))
             p["y"] = clamp_coord(p.get("y", 0.5))
-            p["width"] = clamp_coord(p.get("width", 0.1))
-            p["height"] = clamp_coord(p.get("height", 0.1))
-            p["color"] = sanitize_color(p.get("color"), "#3182CE")
+            p["width"] = max(0.01, min(1.0, float(p.get("width", 0.1))))
+            p["height"] = max(0.01, min(1.0, float(p.get("height", 0.1))))
+            p["color"] = sanitize_color(p.get("color"), "#2B6CB0")
 
         elif self.tool == "draw_text":
             p["x"] = clamp_coord(p.get("x", 0.5))
             p["y"] = clamp_coord(p.get("y", 0.5))
-            p["text"] = str(p.get("text", ""))[:120]  # prevent buffer bloat
-            p["size"] = max(10, min(36, int(p.get("size", 14))))
+            p["text"] = str(p.get("text", ""))[:120]
+            p["size"] = int(max(10, min(36, p.get("size", 14))))
             p["color"] = sanitize_color(p.get("color"), "#1A202C")
-            p["align"] = p.get("align", "left")
 
         elif self.tool == "highlight_region":
             bounds = p.get("bounds", [0.0, 0.0, 1.0, 1.0])
-            p["bounds"] = [clamp_coord(b) for b in bounds[:4]]
+            p["bounds"] = [
+                clamp_coord(bounds[0]),
+                clamp_coord(bounds[1]),
+                clamp_coord(bounds[2]),
+                clamp_coord(bounds[3]),
+            ]
             p["color"] = sanitize_color(p.get("color"), "#ECC94B")
             p["pulse"] = bool(p.get("pulse", True))
 
         return self
 
     def to_dict(self) -> Dict[str, Any]:
-        return asdict(self)
+        return {
+            "tool": self.tool,
+            "params": self.params,
+            "step_description": self.step_description,
+            "annotation": self.annotation,
+        }
 
 
 @dataclass
 class StructuredWhiteboardPayload:
-    """Complete sequence of whiteboard steps sent to the frontend vector renderer."""
+    """Complete multi-step visual sequence sent to client renderer."""
     misconception_id: str
     concept_title: str
     pedagogical_explanation: str

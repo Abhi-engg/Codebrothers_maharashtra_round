@@ -1,16 +1,8 @@
 """
-Re:Learn — Qwen2.5 + RAG Targeted Remediation Generator
-Generates targeted pedagogical explanations grounded in NCERT physics textbooks
-and verified curriculum materials for diagnosed student misconceptions.
-
-No fine-tuning needed for prototype:
-- RAG retrieves authoritative NCERT curriculum principles and counter-examples.
-- Qwen2.5-3B-Instruct / 7B-Instruct synthesizes the 3-step targeted intervention:
-    1. Socratic Cognitive Conflict Probe
-    2. Grounded NCERT Textbook Explanation
-    3. Step-by-Step Interactive Whiteboard Resolution
-- Supports local HuggingFace Qwen2.5, external Ollama / OpenAI-compatible API,
-  and high-fidelity offline RAG textbook synthesizer fallback.
+Re:Learn — Targeted Pedagogical Remediation Generator
+Provides unified intervention generation using:
+1. Qwen2.5-Instruct + RAG Knowledge Base (no fine-tuning needed)
+2. Gemini 2.5 Flash / CAG Generator with automatic resilient fallback
 """
 
 from __future__ import annotations
@@ -20,16 +12,29 @@ import logging
 import os
 import re
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
+
+from pydantic import BaseModel
 
 from backend.intervention.rag_knowledge_base import (
     TextbookKnowledgeChunk,
     TextbookRAGKnowledgeBase,
 )
 from backend.models.combiner import DiagnosticDecision
+from backend.intervention.whiteboard_schema import (
+    WhiteboardSchema,
+    WhiteboardCommand,
+    get_concave_mirror_preset,
+    get_parallel_circuit_preset,
+)
 
 logger = logging.getLogger("relearn.intervention_generator")
 
+
+# ==============================================================================
+# TARGETED EXPLANATION DATACLASS (QWEN2.5 / RAG)
+# ==============================================================================
 
 @dataclass
 class TargetedExplanation:
@@ -102,7 +107,6 @@ class QwenInterventionGenerator:
         # 1. RAG Retrieval from NCERT Knowledge Base
         chunk = self.rag_kb.retrieve_by_misconception_id(misc_id)
         if chunk is None:
-            # Fallback to query retrieval
             chunks = self.rag_kb.retrieve_context(query=f"{misc_id} {q_text}")
             chunk = chunks[0] if chunks else None
 
@@ -281,7 +285,6 @@ class QwenInterventionGenerator:
             prompt = self._build_qwen_prompt(decision, chunk, q_text, working, student_ans)
             outputs = self._hf_pipeline(prompt, max_new_tokens=512, do_sample=False)
             gen_text = outputs[0]["generated_text"]
-            # Extract generated response after prompt
             clean_res = gen_text[len(prompt):].strip()
             m = re.search(r"\{.*\}", clean_res, re.DOTALL)
             if m:
@@ -300,3 +303,136 @@ class QwenInterventionGenerator:
         except Exception as e:
             logger.info("Local HF Qwen2.5 execution unavailable: %s; falling back to RAG synthesizer.", e)
         return None
+
+
+# ==============================================================================
+# CAG-BASED INTERVENTION GENERATOR (PHASE 4 PR)
+# ==============================================================================
+
+class InterventionResponse(BaseModel):
+    explanation: str
+    whiteboard_commands: List[Any]
+
+
+class InterventionGenerator:
+    """
+    Cache-Augmented Generation (CAG) and LLM-based Intervention Generator.
+    Supports Google GenAI SDK with fallback to Textbook RAG Synthesizer.
+    """
+
+    def __init__(self, data_dir: str = "data") -> None:
+        self.data_dir = Path(data_dir)
+        self.taxonomy = self._load_taxonomy()
+        self.cag_cache = self._load_cag_cache()
+        self.rag_generator = QwenInterventionGenerator(backend="rag_synthesizer")
+        self.client = None
+
+        try:
+            from google import genai
+            if os.getenv("GEMINI_API_KEY"):
+                self.client = genai.Client()
+        except (ImportError, Exception):
+            self.client = None
+
+    def _load_taxonomy(self) -> Dict:
+        taxonomy_path = self.data_dir / "taxonomy.json"
+        if taxonomy_path.exists():
+            with open(taxonomy_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return {}
+
+    def _load_cag_cache(self) -> str:
+        cache_path = self.data_dir / "ncert_physics_cag_cache.md"
+        if cache_path.exists():
+            with open(cache_path, "r", encoding="utf-8") as f:
+                return f.read()
+        return "NCERT Physics textbook data not found."
+
+    def _build_system_prompt(self) -> str:
+        return f"""You are an expert Class 10 Physics tutor. Your job is to correct student misconceptions with highly targeted, encouraging feedback.
+
+You have access to the complete NCERT Class 10 Physics curriculum below. Use this as your absolute source of truth.
+Do not hallucinate physics laws outside of this text.
+
+<NCERT_TEXTBOOK_CACHE>
+{self.cag_cache}
+</NCERT_TEXTBOOK_CACHE>
+
+Your tasks:
+1. Provide a maximum 3-sentence targeted explanation addressing the exact misconception. Do NOT just give the correct answer. Explain WHY their mental model is flawed based on the physics principles.
+2. Generate a sequence of structured whiteboard commands to visually illustrate the correct concept (e.g., ray tracing, circuit diagrams). Use normalized coordinates [0.0, 1.0].
+"""
+
+    def generate_intervention(
+        self,
+        student_id: str,
+        misconception_id: str,
+        student_error: str,
+        correct_principle: str,
+        question_text: str,
+    ) -> InterventionResponse:
+        """
+        Generates a pedagogical intervention and whiteboard vector drawing using CAG or RAG.
+        """
+        # If client is configured, call GenAI
+        if self.client is not None:
+            try:
+                from google.genai import types
+                system_instruction = self._build_system_prompt()
+                user_prompt = f"""
+Student has made an error on the following question:
+Question: {question_text}
+
+Diagnosed Misconception ID: {misconception_id}
+Student Error: {student_error}
+Correct Principle: {correct_principle}
+
+Generate the targeted explanation and the corresponding whiteboard visualization.
+"""
+                response = self.client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=user_prompt,
+                    config=types.GenerateContentConfig(
+                        system_instruction=system_instruction,
+                        response_mime_type="application/json",
+                        response_schema=InterventionResponse,
+                        temperature=0.2,
+                    ),
+                )
+                result = json.loads(response.text)
+                return InterventionResponse(**result)
+            except Exception as e:
+                logger.warning("GenAI generation failed: %s; falling back to RAG synthesizer.", e)
+
+        # Fallback to deterministic RAG synthesizer
+        decision = DiagnosticDecision(
+            final_diagnosis=misconception_id,
+            final_confidence=0.95,
+            decision_action="TRIGGER_INTERVENTION",
+            pattern_type="PERSISTENT_MISCONCEPTION",
+            rationale=student_error,
+            model1_diagnosis=misconception_id,
+            model1_confidence=0.95,
+            model2_pattern="PERSISTENT_MISCONCEPTION",
+            model2_confidence=0.95,
+            whiteboard_remediation_needed=True,
+        )
+        submission = {
+            "question_text": question_text,
+            "final_answer": student_error,
+            "working_steps": student_error,
+        }
+        targeted = self.rag_generator.generate_intervention(decision, submission)
+
+        # Whiteboard commands
+        if "opt" in misconception_id.lower() or "lgt" in misconception_id.lower() or "mirror" in question_text.lower():
+            preset = get_concave_mirror_preset()
+        else:
+            preset = get_parallel_circuit_preset()
+
+        commands = [cmd.to_dict() for cmd in preset.commands]
+
+        return InterventionResponse(
+            explanation=f"{targeted.cognitive_conflict_prompt} {targeted.textbook_grounded_explanation}",
+            whiteboard_commands=commands,
+        )
