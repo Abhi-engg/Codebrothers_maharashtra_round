@@ -21,6 +21,13 @@ from backend.models.sequence_model import (
     SEQUENCE_PATTERN_CLASSES,
 )
 
+from backend.models.combiner import (
+    EvidenceCombiner,
+    DiagnosticDecision,
+    HIGH_CONFIDENCE_THRESHOLD,
+    AMBIGUOUS_CONFIDENCE_THRESHOLD,
+)
+
 __all__ = [
     "MisconceptionBaselineClassifier",
     "BaselineMisconceptionClassifier",
@@ -33,6 +40,10 @@ __all__ = [
     "RuleBasedSequenceAnalyzer",
     "GRUSequenceAnalyzer",
     "SEQUENCE_PATTERN_CLASSES",
+    "EvidenceCombiner",
+    "DiagnosticDecision",
+    "HIGH_CONFIDENCE_THRESHOLD",
+    "AMBIGUOUS_CONFIDENCE_THRESHOLD",
     "SKLEARN_AVAILABLE",
     "TORCH_AVAILABLE",
     "TRANSFORMERS_AVAILABLE",
