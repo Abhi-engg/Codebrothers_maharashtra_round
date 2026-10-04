@@ -98,6 +98,7 @@ def format_misconception_input(
     *,
     question_text: Optional[str] = None,
     expected_summary: Optional[str] = None,
+    expected_solution: Optional[str] = None,
     final_answer: Optional[str] = None,
     working_steps: Optional[str] = None,
 ) -> str:
@@ -108,6 +109,9 @@ def format_misconception_input(
     Can be called either with a split record dictionary or explicit keyword arguments.
     Gracefully handles None values for nested dictionaries or string fields.
     """
+    if expected_summary is None and expected_solution is not None:
+        expected_summary = expected_solution
+
     if record is not None and isinstance(record, dict):
         q_obj = record.get("question") or {}
         sub_obj = record.get("student_submission") or {}
