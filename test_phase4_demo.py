@@ -1,11 +1,20 @@
 import os
+import sys
+
+# Ensure UTF-8 stdout encoding on Windows
+if sys.platform.startswith("win"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 from backend.intervention.generator import InterventionGenerator
 from backend.database.db import SessionLocal, Student, init_db, MisconceptionRecord
 from backend.reassessment.tracker import ReassessmentStateMachine
 
 def run_demo():
     print("\n" + "="*50)
-    print("🚀 PHASE 4: PROOF OF CONCEPT DEMO")
+    print(">> PHASE 4: PROOF OF CONCEPT DEMO")
     print("="*50)
 
     # 1. Initialize the SQLite Database
