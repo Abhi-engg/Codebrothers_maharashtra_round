@@ -101,10 +101,11 @@ def format_misconception_input(
     expected_solution: Optional[str] = None,
     final_answer: Optional[str] = None,
     working_steps: Optional[str] = None,
+    diagram_evidence: Optional[str] = None,
 ) -> str:
     """
-    Concatenate Question Text, Expected Physics Summary, Student Final Answer,
-    and Student Working Steps into a unified diagnostic representation.
+    Concatenate Question Text, Expected Physics Summary, Diagram Evidence (from VLM),
+    Student Final Answer, and Student Working Steps into a unified diagnostic representation.
 
     Can be called either with a split record dictionary or explicit keyword arguments.
     Gracefully handles None values for nested dictionaries or string fields.
@@ -120,18 +121,26 @@ def format_misconception_input(
         summary = str(q_obj.get("expected_physics_summary", "") or q_obj.get("expected_summary", "") or "").strip()
         ans = str(sub_obj.get("final_answer", "") or sub_obj.get("student_answer", "") or "").strip()
         steps = str(sub_obj.get("working_steps", "") or sub_obj.get("student_working", "") or "").strip()
+        diag = str(sub_obj.get("diagram_evidence", "") or diagram_evidence or "").strip()
     else:
         q_text = str(question_text or "").strip()
         summary = str(expected_summary or "").strip()
         ans = str(final_answer or "").strip()
         steps = str(working_steps or "").strip()
+        diag = str(diagram_evidence or "").strip()
 
-    return (
-        f"Question: {q_text}\n"
-        f"Expected Physics Summary: {summary}\n"
-        f"Student Final Answer: {ans}\n"
-        f"Student Working Steps: {steps}"
-    )
+    parts = [
+        f"Question: {q_text}",
+        f"Expected Physics Summary: {summary}",
+    ]
+    if diag:
+        parts.append(f"Diagram Evidence: {diag}")
+    parts.extend([
+        f"Student Final Answer: {ans}",
+        f"Student Working Steps: {steps}",
+    ])
+
+    return "\n".join(parts)
 
 
 def load_taxonomy_labels(taxonomy_path: Union[str, Path]) -> List[str]:

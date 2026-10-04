@@ -21,6 +21,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 
+from backend.ingestion.paddle_ocr_engine import PaddleOCREngine, PaddleOCRResult
+
 logger = logging.getLogger("relearn.ocr_parser")
 
 
@@ -34,12 +36,13 @@ class OCRExtractionResult:
     detected_signs: Dict[str, str]  # e.g. {'f': '-', 'u': '-', 'v': '-'}
     has_fractions: bool
     quality_warning: Optional[str] = None
+    engine_used: str = "paddleocr_or_heuristic"
     metadata: Dict[str, Any] = field(default_factory=dict)
 
 
 class HandwrittenOCRParser:
     """
-    Parser for handwritten student math and physics working steps.
+    Parser for handwritten student math and physics working steps using PaddleOCR.
     """
 
     # Physics mathematical pattern anchors
@@ -53,8 +56,13 @@ class HandwrittenOCRParser:
     )
     FRACTION_PATTERN = re.compile(r"\b\d+\s*\/\s*[-+]?\d+\b|1\/[-+]?[a-z\d]+", re.IGNORECASE)
 
-    def __init__(self, min_confidence_threshold: float = 0.60) -> None:
+    def __init__(
+        self,
+        min_confidence_threshold: float = 0.60,
+        paddle_engine: Optional[PaddleOCREngine] = None,
+    ) -> None:
         self.min_confidence_threshold = min_confidence_threshold
+        self.paddle_engine = paddle_engine or PaddleOCREngine(min_confidence=min_confidence_threshold)
 
     def parse_image_data(self, image_input: Union[str, bytes, Path]) -> OCRExtractionResult:
         """
@@ -96,8 +104,7 @@ class HandwrittenOCRParser:
 
     def _ocr_bytes(self, image_bytes: bytes) -> Tuple[str, float]:
         """
-        Attempts OCR via PaddleOCR / pytesseract / PIL if available;
-        falls back gracefully with confidence penalty if unreadable.
+        Extracts handwriting via PaddleOCR engine (or fallback).
         """
         # Check if bytes are valid image header (JPEG, PNG)
         if len(image_bytes) < 8:
@@ -109,9 +116,9 @@ class HandwrittenOCRParser:
         if not (is_png or is_jpeg):
             return "Unable to decode image format", 0.20
 
-        # In production, PaddleOCR handles C++ bindings here.
-        # When called in benchmark/test harness, return extracted payload:
-        return "1/v - 1/u = 1/f => 1/v = 1/(-15) + 1/(-20)", 0.88
+        # Delegate to PaddleOCREngine
+        res = self.paddle_engine.extract_from_image(image_bytes)
+        return res.full_text, res.mean_confidence
 
     def process_extracted_text(self, text: str, initial_confidence: float = 0.85) -> OCRExtractionResult:
         """
