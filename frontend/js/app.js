@@ -82,7 +82,14 @@ const app = {
 
   async startQuiz() {
     this.showView('view-question');
-    const selectedTopic = document.getElementById('session-topic').options[document.getElementById('session-topic').selectedIndex].text;
+    
+    const studentSelect = document.getElementById('session-student');
+    const selectedGrade = studentSelect.options[studentSelect.selectedIndex].getAttribute('data-class');
+    
+    const topicSelect = document.getElementById('session-topic');
+    const selectedTopic = topicSelect.options[topicSelect.selectedIndex].text;
+    const selectedTopicValue = topicSelect.value;
+    
     document.getElementById('quiz-topic-badge').innerText = selectedTopic;
     
     document.getElementById('q-title').innerText = "Loading quiz...";
@@ -91,8 +98,13 @@ const app = {
     document.getElementById('q-working').value = "";
 
     try {
-      // Fetch available questions
-      const response = await fetch(`${API_BASE_URL}/quiz/questions`);
+      // Build query string with grade and topic filters
+      const params = new URLSearchParams();
+      if (selectedGrade) params.append('grade', selectedGrade);
+      if (selectedTopicValue) params.append('chapter', selectedTopicValue);
+
+      // Fetch filtered questions from backend
+      const response = await fetch(`${API_BASE_URL}/quiz/questions?${params.toString()}`);
       if (!response.ok) throw new Error("Failed to load questions");
       const data = await response.json();
       
