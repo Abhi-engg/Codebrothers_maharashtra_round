@@ -75,30 +75,46 @@ class HandwrittenOCRParser:
         """
         Extracts raw text strings from image input using OCR engine or simulated parser.
         """
-        # 1. If base64 string
+        if isinstance(image_input, bytes):
+            return self._ocr_bytes(image_input)
+
+        if isinstance(image_input, Path) or (isinstance(image_input, str) and not image_input.startswith("data:image") and "\n" not in image_input and Path(image_input).exists()):
+            try:
+                with open(Path(image_input), "rb") as f:
+                    return self._ocr_bytes(f.read())
+            except Exception as e:
+                logger.warning("Failed to read image file %s: %s", image_input, e)
+                return "", 0.0
+
         if isinstance(image_input, str):
-            if image_input.startswith("data:image") or len(image_input) > 200:
+            clean_str = image_input.strip()
+            # 1. If explicit data URI
+            if clean_str.startswith("data:image"):
                 try:
-                    # Strip base64 header if present
-                    if "," in image_input:
-                        image_input = image_input.split(",", 1)[1]
-                    raw_bytes = base64.b64decode(image_input)
+                    payload = clean_str.split(",", 1)[1] if "," in clean_str else clean_str
+                    raw_bytes = base64.b64decode(payload)
                     return self._ocr_bytes(raw_bytes)
                 except Exception as e:
-                    logger.warning("Failed to decode base64 image: %s", e)
+                    logger.warning("Failed to decode data URI base64: %s", e)
                     return "", 0.0
 
-            # Filepath
-            img_path = Path(image_input)
-            if img_path.exists():
-                with open(img_path, "rb") as f:
-                    return self._ocr_bytes(f.read())
-            else:
-                # Text string passed directly (e.g. simulated OCR text from benchmark)
-                return image_input, 0.90
+            # 2. Check if string is base64 encoded image
+            if "\n" not in clean_str and len(clean_str) >= 16 and (len(clean_str) % 4 == 0 or "=" in clean_str):
+                try:
+                    raw_bytes = base64.b64decode(clean_str)
+                    if len(raw_bytes) >= 8 and (
+                        raw_bytes.startswith(b"\x89PNG")
+                        or raw_bytes.startswith(b"\xff\xd8\xff")
+                        or raw_bytes.startswith(b"GIF")
+                        or raw_bytes.startswith(b"RIFF")
+                        or raw_bytes.startswith(b"BM")
+                    ):
+                        return self._ocr_bytes(raw_bytes)
+                except Exception:
+                    pass
 
-        elif isinstance(image_input, bytes):
-            return self._ocr_bytes(image_input)
+            # 3. Otherwise, treat as directly provided mathematical / step text
+            return image_input, 0.90
 
         return "", 0.0
 

@@ -40,7 +40,7 @@ class Attempt(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     student_id = Column(Integer, ForeignKey("students.id"))
-    timestamp = Column(DateTime, default=datetime.datetime.utcnow)
+    timestamp = Column(DateTime, default=lambda: datetime.datetime.now(datetime.timezone.utc))
     question_id = Column(String, index=True)
     student_answer = Column(Text)
     extracted_steps = Column(Text)

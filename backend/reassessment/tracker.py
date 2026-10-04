@@ -1,4 +1,4 @@
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 from backend.database.db import SessionLocal, MisconceptionRecord, MisconceptionStatus, Attempt
 import datetime
 
@@ -17,7 +17,8 @@ class ReassessmentStateMachine:
         transfer_question_id: str,
         student_answer: str,
         student_working: str,
-        diagnosis_result: Dict[str, Any]
+        diagnosis_result: Dict[str, Any],
+        db: Optional[Any] = None,
     ) -> str:
         """
         Evaluates a transfer question attempt and updates the misconception status.
@@ -33,6 +34,7 @@ class ReassessmentStateMachine:
                               - is_valid_reasoning: bool (has clear/correct steps)
                               - diagnosed_misconception: str (e.g., MISC-LGT-01)
                               - confidence: float
+            db: Optional existing SQLAlchemy Session to reuse for transaction coordination
         
         Returns:
             The determined mastery state string ('Likely Resolved', 'Still Present', 'Uncertain')
@@ -57,12 +59,17 @@ class ReassessmentStateMachine:
             new_db_status = MisconceptionStatus.IMPROVING
 
         # Update Database
-        db = SessionLocal()
+        owns_db = False
+        db_session = db
+        if db_session is None:
+            db_session = SessionLocal()
+            owns_db = True
+
         try:
             # Log the attempt
             attempt = Attempt(
                 student_id=student_id,
-                timestamp=datetime.datetime.utcnow(),
+                timestamp=datetime.datetime.now(datetime.timezone.utc),
                 question_id=transfer_question_id,
                 student_answer=student_answer,
                 extracted_steps=student_working,
@@ -71,10 +78,10 @@ class ReassessmentStateMachine:
                 is_reassessment=1,
                 transfer_question_id=transfer_question_id
             )
-            db.add(attempt)
+            db_session.add(attempt)
 
             # Update MisconceptionRecord
-            record = db.query(MisconceptionRecord).filter(
+            record = db_session.query(MisconceptionRecord).filter(
                 MisconceptionRecord.student_id == student_id,
                 MisconceptionRecord.misconception_id == misconception_id
             ).first()
@@ -92,14 +99,15 @@ class ReassessmentStateMachine:
                     occurrence_count=1,
                     status=new_db_status
                 )
-                db.add(record)
+                db_session.add(record)
                 
-            db.commit()
+            db_session.commit()
             
         except Exception as e:
-            db.rollback()
+            db_session.rollback()
             raise e
         finally:
-            db.close()
+            if owns_db:
+                db_session.close()
 
         return new_state
