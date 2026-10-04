@@ -152,6 +152,15 @@ class HandwrittenOCRParser:
             else:
                 signs[var.lower()] = "+"  # default positive
 
+        # Also extract signs from denominator substitutions e.g. 1/(-15) or 1/(-20)
+        denom_matches = re.findall(r"1\s*\/\s*\(\s*([+-]?)\s*(\d+(?:\.\d+)?)\s*\)", cleaned)
+        for idx, (sgn, num) in enumerate(denom_matches):
+            sign_char = "-" if sgn == "-" else "+"
+            if "f" not in signs and idx == 0:
+                signs["f"] = sign_char
+            elif "u" not in signs:
+                signs["u"] = sign_char
+
         # 4. Detect Fractions (common in 1/v, 1/Rp calculations)
         has_fractions = bool(self.FRACTION_PATTERN.search(cleaned))
 

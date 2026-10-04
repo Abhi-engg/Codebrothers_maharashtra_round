@@ -293,13 +293,13 @@ class ReLearnWhiteboard {
     this.ctx.lineWidth = 2.5;
 
     if (shape === 'concave_mirror') {
-      // Concave arc curving towards left
+      // Concave arc curving towards left (reflecting inward)
       const r = this.height * (p.height || 0.5) / 2;
       this.ctx.beginPath();
       this.ctx.arc(cx + r * 0.8, cy + r, r, Math.PI * 0.85, Math.PI * 1.15, false);
       this.ctx.stroke();
 
-      // Reflective hatch marks on right
+      // Reflective hatch marks on right (non-reflecting side)
       this.ctx.strokeStyle = '#A0AEC0';
       this.ctx.lineWidth = 1;
       for (let a = Math.PI * 0.86; a <= Math.PI * 1.14; a += 0.05) {
@@ -310,6 +310,52 @@ class ReLearnWhiteboard {
         this.ctx.lineTo(hx + 8, hy - 4);
         this.ctx.stroke();
       }
+    } else if (shape === 'convex_mirror') {
+      // Convex arc curving towards right (reflecting outward)
+      const r = this.height * (p.height || 0.5) / 2;
+      this.ctx.beginPath();
+      this.ctx.arc(cx - r * 0.8, cy + r, r, -Math.PI * 0.15, Math.PI * 0.15, false);
+      this.ctx.stroke();
+
+      // Reflective hatch marks on inner left
+      this.ctx.strokeStyle = '#A0AEC0';
+      this.ctx.lineWidth = 1;
+      for (let a = -Math.PI * 0.14; a <= Math.PI * 0.14; a += 0.05) {
+        const hx = (cx - r * 0.8) + r * Math.cos(a);
+        const hy = (cy + r) + r * Math.sin(a);
+        this.ctx.beginPath();
+        this.ctx.moveTo(hx, hy);
+        this.ctx.lineTo(hx - 8, hy - 4);
+        this.ctx.stroke();
+      }
+    } else if (shape === 'convex_lens') {
+      // Symmetrical converging biconvex lens
+      const w = this.width * (p.width || 0.06);
+      const h = this.height * (p.height || 0.5);
+      this.ctx.beginPath();
+      this.ctx.ellipse(cx, cy, w / 2, h / 2, 0, 0, Math.PI * 2);
+      this.ctx.stroke();
+
+      // Dashed optical center vertical line
+      this.ctx.save();
+      this.ctx.strokeStyle = '#CBD5E0';
+      this.ctx.setLineDash([3, 3]);
+      this.ctx.beginPath();
+      this.ctx.moveTo(cx, cy - h / 2);
+      this.ctx.lineTo(cx, cy + h / 2);
+      this.ctx.stroke();
+      this.ctx.restore();
+    } else if (shape === 'concave_lens') {
+      // Diverging biconcave lens (pinched in center)
+      const w = this.width * (p.width || 0.06);
+      const h = this.height * (p.height || 0.5);
+      this.ctx.beginPath();
+      this.ctx.moveTo(cx - w / 2, cy - h / 2);
+      this.ctx.lineTo(cx + w / 2, cy - h / 2);
+      this.ctx.quadraticCurveTo(cx, cy, cx + w / 2, cy + h / 2);
+      this.ctx.lineTo(cx - w / 2, cy + h / 2);
+      this.ctx.quadraticCurveTo(cx, cy, cx - w / 2, cy - h / 2);
+      this.ctx.stroke();
     } else if (shape === 'resistor') {
       // Zigzag teeth
       const w = this.width * (p.width || 0.15);
@@ -339,6 +385,39 @@ class ReLearnWhiteboard {
       this.ctx.beginPath();
       this.ctx.moveTo(cx + 8, cy - h / 4);
       this.ctx.lineTo(cx + 8, cy + h / 4);
+      this.ctx.stroke();
+    } else if (shape === 'bulb') {
+      // Circle with inner cross filament
+      const r = Math.min(this.width * (p.width || 0.06), this.height * (p.height || 0.06)) / 2;
+      this.ctx.beginPath();
+      this.ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      this.ctx.stroke();
+      // Filament loop
+      this.ctx.beginPath();
+      this.ctx.moveTo(cx - r * 0.6, cy + r * 0.6);
+      this.ctx.lineTo(cx, cy - r * 0.4);
+      this.ctx.lineTo(cx + r * 0.6, cy + r * 0.6);
+      this.ctx.stroke();
+    } else if (shape === 'switch') {
+      // Circuit switch contact
+      const w = this.width * (p.width || 0.08);
+      this.ctx.beginPath();
+      this.ctx.arc(cx, cy, 3, 0, Math.PI * 2);
+      this.ctx.arc(cx + w, cy, 3, 0, Math.PI * 2);
+      this.ctx.fill();
+      // Lever
+      this.ctx.beginPath();
+      this.ctx.moveTo(cx, cy);
+      this.ctx.lineTo(cx + w * 0.9, cy - 10);
+      this.ctx.stroke();
+    } else if (shape === 'rectangle') {
+      const w = this.width * (p.width || 0.1);
+      const h = this.height * (p.height || 0.1);
+      this.ctx.strokeRect(cx - w / 2, cy - h / 2, w, h);
+    } else if (shape === 'circle') {
+      const r = Math.min(this.width * (p.width || 0.1), this.height * (p.height || 0.1)) / 2;
+      this.ctx.beginPath();
+      this.ctx.arc(cx, cy, r, 0, Math.PI * 2);
       this.ctx.stroke();
     }
   }
